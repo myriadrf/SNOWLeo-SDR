@@ -3,7 +3,6 @@
 A low cost SDR platform with MATLAB and GNU Radio support, that is based on the SNOWLeo and Myriad-RF 1 modules. 
 For further details see the [project page](http://myriadrf.org/snowleo-sdr/).
 
-
 ## Structure
 
       docs/ - documentation
