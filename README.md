@@ -14,7 +14,6 @@ For further details see the [project page](http://myriadrf.org/snowleo-sdr/).
               linux/     - Linux kernel tree
               u-boot/    - U-boot bootloader
               zing/      - Zing application
-
       hardware/ - SDR adapter hardware design
           Allegro/       - EDA design files
           BOM/           - Bill of materials
