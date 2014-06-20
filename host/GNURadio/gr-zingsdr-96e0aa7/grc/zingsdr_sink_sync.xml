@@ -1,0 +1,41 @@
+<block>
+  <name>Sink sync</name>
+  <key>zingsdr_sink_sync</key>
+  <category>ZINGSDR</category>
+  <import>import zingsdr</import>
+  <make>zingsdr.sink_sync($ipaddr, $port, $tx_freq, $tx_vga, $tx_mode)</make>
+  <param>
+    <name>IP Address</name>
+    <key>ipaddr</key>
+	<value>192.168.1.10</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Port</name>
+    <key>port</key>
+	<value>8000</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>TX Freq</name>
+    <key>tx_freq</key>
+	<value>2</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>TX GAIN</name>
+    <key>tx_vga</key>
+	<value>36</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>TX MODE</name>
+    <key>tx_mode</key>
+	<value>1</value>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  </block>

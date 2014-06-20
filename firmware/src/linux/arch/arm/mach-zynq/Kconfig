@@ -1,0 +1,63 @@
+if ARCH_ZYNQ
+
+menu "Xilinx Specific Options"
+config ZYNQ_EARLY_UART1
+	bool "Early Printk On UART1 (2nd UART)"
+	default n
+	help
+	  Select if you want to use the 2nd UART (UART1) in Zynq for the early
+	  printk. If not selected, the 1st UART (UART0) is used.
+
+config ZYNQ_EARLY_UART_EP107
+	bool "Early UART Clock Input For EP107"
+	default y
+	help
+	  Select if you want the kernel to be setup for the EP107 board which is
+	  using a 50 MHz clock into the UART. Not selecting this causes a clock into
+	  the UART that is based on a 33.333 MHz clock divided down by 63.  Note that
+	  this only affects early printk.
+
+config XILINX_FIXED_DEVTREE_ADDR
+	bool "Device Tree At Fixed Address"
+	default n
+	depends on OF
+	help
+	  Select if you want the kernel to assume a device tree is located at a
+	  fixed address of 0x1000000 on kernel boot.  This allows the go command
+	  in u-boot to be used since the bootm command is slow in the EP107.
+
+config XILINX_L1_PREFETCH
+	bool "L1 Cache Prefetch"
+	default y
+	help
+	  This option turns on L1 cache prefetching to get the best performance
+	  in many cases. This may not always be the best performance depending on
+	  the usage. There are some cases where this may cause issues when booting.
+
+config XILINX_L2_PREFETCH
+	bool "L2 Cache Prefetch"
+	default y
+	help
+	  This option turns on L2 cache prefetching to get the best performance
+	  in many cases. This may not always be the best performance depending on
+	  the usage.
+
+config XILINX_TEST
+	bool "Testing On Kernel Boot"
+	default n
+	help
+	  Select if you want kernel tests to run on boot.  The tests may take
+	  several minutes on kernel boot.
+
+config XILINX_AXIPCIE
+	bool "Xilinx AXI PCIe host bridge support"
+	select PCI
+	select ARCH_SUPPORTS_MSI
+	help
+	  Say 'Y' here if you want kernel to support the Xilinx AXI PCIe
+	  Host Bridge. This supports Message Signal Interrupts (MSI), if you
+	  want to use this feature select CONFIG_PCI_MSI from 'Bus Support ->'.
+
+endmenu
+
+endif

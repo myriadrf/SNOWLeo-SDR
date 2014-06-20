@@ -1,0 +1,7 @@
+/build
+*.xml-*
+*.cc-*
+*.h-*
+*-bak.cc
+*-bak.h
+

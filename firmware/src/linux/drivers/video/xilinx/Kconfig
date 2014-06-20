@@ -1,0 +1,21 @@
+#
+# Xilinx Video configuration
+#
+
+menuconfig XILINX_VIDEO_IP
+	tristate "Xilinx Video IP components"
+	---help---
+	  This adds support to include Xilinx Video IP components.
+
+
+config XILINX_VDMA_WRAPPER
+	tristate "Video DMA Wrapper"
+	depends on XILINX_VIDEO_IP && XILINX_DMA_ENGINES
+	---help---
+	  Enables Video DMA IP component.
+
+config XILINX_SOBEL
+	tristate "SOBEL"
+	depends on XILINX_VIDEO_IP
+	---help---
+	  Enables and configure Hardware Sobel IP.

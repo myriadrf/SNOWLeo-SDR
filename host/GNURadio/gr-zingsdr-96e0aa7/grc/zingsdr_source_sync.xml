@@ -1,0 +1,42 @@
+<block>
+  <name>Source sync</name>
+  <key>zingsdr_source_sync</key>
+  <category>ZINGSDR</category>
+  <import>import zingsdr</import>
+  <make>zingsdr.source_sync($ipaddr, $port, $rx_freq, $rx_vga, $rx_lan)</make>
+  <param>
+    <name>IP Address</name>
+    <key>ipaddr</key>
+	<value>192.168.1.10</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Port</name>
+    <key>port</key>
+	<value>8000</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>RX Freq</name>
+    <key>rx_freq</key>
+	<value>2</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>RX GAIN</name>
+    <key>rx_vga</key>
+	<value>5</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>RX LAN</name>
+    <key>rx_lan</key>
+	<value>2</value>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>MAX_OUT</nports>
+  </source>
+</block>
