@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed May 28 12:44:32 2014">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="6442129a3b844b75a59f6df407afd1b5" type="ProjectID"/>
+<property name="ProjectIteration" value="188" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="PlanAhead Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="ISE Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSrc" value="15" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
+<property name="CreateTopHDL" value="11" type="JavaHandler"/>
+<property name="CustomizeCore" value="6" type="JavaHandler"/>
+<property name="EditDelete" value="7" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="ExportBitFile" value="1" type="JavaHandler"/>
+<property name="ExportHardware" value="38" type="JavaHandler"/>
+<property name="FileExit" value="1" type="JavaHandler"/>
+<property name="Generate Target" value="6" type="JavaHandler"/>
+<property name="LaunchChipscopeAnalyzer" value="5" type="JavaHandler"/>
+<property name="LaunchEDK" value="123" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="17" type="JavaHandler"/>
+<property name="ProjectSettings" value="3" type="JavaHandler"/>
+<property name="RecustomizeCore" value="24" type="JavaHandler"/>
+<property name="RunBitgen" value="167" type="JavaHandler"/>
+<property name="RunDesignAhead" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="119" type="JavaHandler"/>
+<property name="RunSynthesis" value="114" type="JavaHandler"/>
+<property name="SetTopNode" value="1" type="JavaHandler"/>
+<property name="ShowView" value="37" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="1" type="JavaHandler"/>
+<property name="ViewInstTempl" value="7" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="2" type="JavaHandler"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="19" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="16" type="TclMode"/>
+<property name="ISEMode" value="0" type="ISEMode"/>
+</item>
+</section>
+</application>
+</document>

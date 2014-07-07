@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          J:\zing_pro\forum_dma_ex\forum_dma_ex\pcores/ad_in_st_v3_00_a/data/ad_in_st_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Mon Aug 05 14:00:47 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+user_logic.ngc
+fifo_8192x64_16384x32.ngc
+################################################################################
+

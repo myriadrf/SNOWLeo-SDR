@@ -1,0 +1,559 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: H:\IDE14_7\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -p xc7z010clg400-1 -dd _ngo -uc dma_demo.ucf dma_demo.edf
+
+Executing edif2ngd -quiet "dma_demo.edf" "_ngo\dma_demo.ngo"
+Release 14.7 - edif2ngd P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading NGO file
+"J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.runs/impl_1/_ngo/dma_demo.ngo"
+...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS[3]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS(3)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS(2)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS(1)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS(0)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_CS_n' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_CS_n' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_ODT' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_ODT' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_VRN' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_VRN' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_VRP' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_VRP' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_CKE' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_CKE' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_CAS_n' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_CAS_n' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS_n[3]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS_n(3)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS_n[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS_n(2)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS_n[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS_n(1)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQS_n[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQS_n(0)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_PS_CLK_pin' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_PS_CLK_pin' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_WEB_pin' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_WEB_pin' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Clk' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Clk' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DRSTB' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DRSTB' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_PS_SRSTB_pin' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_PS_SRSTB_pin' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_PS_PORB_pin' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_PS_PORB_pin' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_BankAddr[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_BankAddr(2)' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_BankAddr[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_BankAddr(1)' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_BankAddr[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_BankAddr(0)' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Clk_n' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Clk_n' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DM[3]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DM(3)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DM[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DM(2)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DM[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DM(1)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DM[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DM(0)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[31]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(31)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[30]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(30)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[29]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(29)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[28]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(28)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[27]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(27)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[26]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(26)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[25]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(25)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[24]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(24)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[23]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(23)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[22]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(22)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[21]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(21)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[20]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(20)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[19]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(19)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[18]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(18)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[17]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(17)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[16]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(16)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[15]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(15)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[14]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(14)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[13]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(13)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[12]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(12)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[11]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(11)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[10]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(10)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[9]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(9)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[8]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(8)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[7]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(7)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[6]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(6)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[5]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(5)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[4]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(4)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[3]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(3)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(2)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(1)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_DQ[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_DQ(0)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_RAS_n' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_RAS_n' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[53]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(53)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[52]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(52)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[51]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(51)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[50]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(50)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[49]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(49)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[48]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(48)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[47]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(47)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[46]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(46)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[45]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(45)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[44]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(44)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[43]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(43)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[42]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(42)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[41]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(41)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[40]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(40)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[39]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(39)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[38]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(38)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[37]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(37)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[36]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(36)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[35]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(35)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[34]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(34)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[33]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(33)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[32]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(32)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[31]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(31)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[30]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(30)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[29]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(29)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[28]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(28)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[27]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(27)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[26]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(26)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[25]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(25)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[24]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(24)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[23]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(23)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[22]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(22)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[21]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(21)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[20]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(20)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[19]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(19)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[18]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(18)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[17]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(17)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[16]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(16)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[15]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(15)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[14]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(14)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[13]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(13)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[12]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(12)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[11]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(11)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[10]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(10)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[9]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(9)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[8]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(8)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[7]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(7)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[6]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(6)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[5]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(5)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[4]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(4)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[3]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(3)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(2)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(1)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_MIO[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_MIO(0)' has been added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[14]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(14)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[13]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(13)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[12]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(12)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[11]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(11)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[10]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(10)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[9]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(9)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[8]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(8)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[7]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(7)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[6]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(6)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[5]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(5)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[4]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(4)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[3]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(3)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[2]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(2)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[1]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(1)' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net 'cpu0_i/processing_system7_0_DDR_Addr[0]' is not
+   connected to an external port in this design.  A new port
+   'processing_system7_0_DDR_Addr(0)' has been added and is connected to this
+   signal.
+
+Annotating constraints to design from ucf file "dma_demo.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi_gp0_reset_source =   FFS 
+   PADS  CPUS;> [dma_demo.ucf(173)]: CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi_hp0_reset_source =   FFS 
+   PADS  CPUS;> [dma_demo.ucf(180)]: CPUS "*" does not match any design objects.
+
+WARNING:ConstraintSystem:58 - Constraint <TIMEGRP axi_hp2_reset_source =   FFS 
+   PADS  CPUS;> [dma_demo.ucf(198)]: CPUS "*" does not match any design objects.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Total memory usage is 279680 kilobytes
+
+Writing NGD file "dma_demo.ngd" ...
+Total REAL time to NGDBUILD completion: 2 min  43 sec
+Total CPU time to NGDBUILD completion:  1 min  48 sec
+
+Writing NGDBUILD log file "dma_demo.bld"...

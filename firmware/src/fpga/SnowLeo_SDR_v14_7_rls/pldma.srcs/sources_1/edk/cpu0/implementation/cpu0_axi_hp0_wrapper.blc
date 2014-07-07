@@ -1,0 +1,32 @@
+Release 14.7 ngcbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: H:\IDE14_7\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc7z010clg400-1 -intstyle silent -i -sd .. cpu0_axi_hp0_wrapper.ngc
+../cpu0_axi_hp0_wrapper
+
+Reading NGO file
+"J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.srcs/sources_1/edk/cpu0/impleme
+ntation/axi_hp0_wrapper/cpu0_axi_hp0_wrapper.ngc" ...
+Loading design module "../cpu0_axi_hp0_wrapper_fifo_generator_v9_1_1.ngc"...
+Loading design module "../cpu0_axi_hp0_wrapper_fifo_generator_v9_1_2.ngc"...
+Loading design module "../cpu0_axi_hp0_wrapper_fifo_generator_v9_1_3.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 144984 kilobytes
+
+Writing NGC file "../cpu0_axi_hp0_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  6 sec
+Total CPU time to NGCBUILD completion:   5 sec
+
+Writing NGCBUILD log file "../cpu0_axi_hp0_wrapper.blc"...

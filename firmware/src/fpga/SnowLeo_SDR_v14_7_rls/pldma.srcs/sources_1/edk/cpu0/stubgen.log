@@ -1,0 +1,87 @@
+Release 14.4 - platgen Xilinx EDK 14.4 Build EDK_P.49d
+ (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc7z020clg484-1 -lang verilog -intstyle pa -stubgen -lp
+J:/zing_pro/zing_pldma20_v144/pldma.srcs/sources_1/edk/
+J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs 
+
+Parse J:/zing_pro/zing_pldma20_v144/pldma.srcs/sources_1/edk/cpu0/cpu0.mhs ...
+
+Create merged mhs ...
+WARNING:EDK:4092 - IPNAME: processing_system7, INSTANCE: processing_system7_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs line 45 
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_gp0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs line 142
+    
+WARNING:EDK:4092 - IPNAME: axi_interconnect, INSTANCE: axi_hp0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs line 150
+    
+WARNING:EDK:4092 - IPNAME: proc_sys_reset, INSTANCE: sys_reset_n -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs line 158
+    
+WARNING:EDK:4092 - IPNAME: clock_generator, INSTANCE: clock_generator_0 -
+   Pre-Production version not verified on hardware for architecture 'zynq' -
+   J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs line 168
+    
+WARNING:EDK:4092 - IPNAME: axi_gpio, INSTANCE: axi_gpio_0 - Pre-Production
+   version not verified on hardware for architecture 'zynq' -
+   J:\zing_pro\zing_pldma20_v144\pldma.srcs\sources_1\edk\cpu0\cpu0.mhs line 191
+    
+
+Overriding IP level properties ...
+INFO:EDK:4130 - IPNAME: processing_system7, INSTANCE:processing_system7_0 - tcl
+   is overriding PARAMETER C_NUM_F2P_INTR_INPUTS value to 1 -
+   J:\ISE14_4\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_
+   v4_02_a\data\processing_system7_v2_1_0.mpd line 319 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_gp0 - tcl is overriding
+   PARAMETER C_BASEFAMILY value to zynq -
+   J:\ISE14_4\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1
+   _06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_hp0 - tcl is overriding
+   PARAMETER C_BASEFAMILY value to zynq -
+   J:\ISE14_4\14.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1
+   _06_a\data\axi_interconnect_v2_1_0.mpd line 81 
+
+Computing clock values...
+INFO:EDK:1432 - Frequency for Top-Level Input Clock
+   'processing_system7_0_PS_CLK_pin' is not specified. Clock DRCs will not be
+   performed for IPs connected to that clock port, unless they are connected
+   through the clock generator IP. 
+
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK - INFO: DDR Base and High address in current configuration is
+   0x00000000 and 0x3FFFFFFF respectively. 
+INFO:EDK - INFO: You can modify the DDR address range accessed by Programmable
+   Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a
+   master on processing_system7 AXI slave interfaces, please use the top half of
+   the address range (Base Address = 0x20000000; High Address = 0x3FFFFFFF). For
+   all other master, any subset of the DDR address can be used. See Xilinx
+   Answer 47167 for more information. 
+Address Map for Processor processing_system7_0
+  (0x41200000-0x41200fff) axi_gpio_0	axi_gp0
+  (0x41210000-0x4121ffff) pldma_mwr_0	axi_gp0
+  (0x41220000-0x4122ffff) pldma_mrd_0	axi_gp0
+
+Checking platform address map ...
+
+Modify defaults ...
+
+Creating stub ...
+
+Elaborating instances ...
+
+Inserting wrapper level ...
+
+Writing (stub) BMM ...
+
+Writing top-level HDL ...
+
+Total run time: 7.00 seconds

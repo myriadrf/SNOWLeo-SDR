@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent cpu0_axi_hp0_wrapper_fifo_generator_v9_1_2_exdes 
+-p xc7z010-clg400-3
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn cpu0_axi_hp0_wrapper_fifo_generator_v9_1_2_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

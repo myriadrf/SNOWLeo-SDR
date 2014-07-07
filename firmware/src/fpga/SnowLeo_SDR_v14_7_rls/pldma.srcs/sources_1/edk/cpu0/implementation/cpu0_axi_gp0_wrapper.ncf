@@ -1,0 +1,3 @@
+INST "axi_gp0/*clock_conv*/*_resync*" TNM = FFS "axi_gp0_reset_resync";
+TIMEGRP "axi_gp0_reset_source" = FFS PADS CPUS;
+TIMESPEC "TS_axi_gp0_reset_resync" = FROM "axi_gp0_reset_source" TO "axi_gp0_reset_resync" TIG;

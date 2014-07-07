@@ -1,0 +1,288 @@
+
+ PARAMETER VERSION = 2.1.0
+
+
+ PORT processing_system7_0_MIO = processing_system7_0_MIO, DIR = IO, VEC = [53:0]
+ PORT processing_system7_0_PS_SRSTB_pin = processing_system7_0_PS_SRSTB, DIR = I
+ PORT processing_system7_0_PS_CLK_pin = processing_system7_0_PS_CLK, DIR = I, SIGIS = CLK
+ PORT processing_system7_0_PS_PORB_pin = processing_system7_0_PS_PORB, DIR = I
+ PORT processing_system7_0_DDR_Clk = processing_system7_0_DDR_Clk, DIR = IO, SIGIS = CLK
+ PORT processing_system7_0_DDR_Clk_n = processing_system7_0_DDR_Clk_n, DIR = IO, SIGIS = CLK
+ PORT processing_system7_0_DDR_CKE = processing_system7_0_DDR_CKE, DIR = IO
+ PORT processing_system7_0_DDR_CS_n = processing_system7_0_DDR_CS_n, DIR = IO
+ PORT processing_system7_0_DDR_RAS_n = processing_system7_0_DDR_RAS_n, DIR = IO
+ PORT processing_system7_0_DDR_CAS_n = processing_system7_0_DDR_CAS_n, DIR = IO
+ PORT processing_system7_0_DDR_WEB_pin = processing_system7_0_DDR_WEB, DIR = O
+ PORT processing_system7_0_DDR_BankAddr = processing_system7_0_DDR_BankAddr, DIR = IO, VEC = [2:0]
+ PORT processing_system7_0_DDR_Addr = processing_system7_0_DDR_Addr, DIR = IO, VEC = [14:0]
+ PORT processing_system7_0_DDR_ODT = processing_system7_0_DDR_ODT, DIR = IO
+ PORT processing_system7_0_DDR_DRSTB = processing_system7_0_DDR_DRSTB, DIR = IO, SIGIS = RST
+ PORT processing_system7_0_DDR_DQ = processing_system7_0_DDR_DQ, DIR = IO, VEC = [31:0]
+ PORT processing_system7_0_DDR_DM = processing_system7_0_DDR_DM, DIR = IO, VEC = [3:0]
+ PORT processing_system7_0_DDR_DQS = processing_system7_0_DDR_DQS, DIR = IO, VEC = [3:0]
+ PORT processing_system7_0_DDR_DQS_n = processing_system7_0_DDR_DQS_n, DIR = IO, VEC = [3:0]
+ PORT processing_system7_0_DDR_VRN = processing_system7_0_DDR_VRN, DIR = IO
+ PORT processing_system7_0_DDR_VRP = processing_system7_0_DDR_VRP, DIR = IO
+ PORT pldma_0_u_debug_pin = pldma_0_u_debug, DIR = O, VEC = [139:0]
+ PORT pldma_0_wr_clk_pin = pldma_0_wr_clk, DIR = I
+ PORT pldma_0_data_wr_pin = pldma_0_data_wr, DIR = I, VEC = [31:0]
+ PORT pldma_0_wr_en_pin = pldma_0_wr_en, DIR = I
+ PORT pldma_0_afull_pin = pldma_0_afull, DIR = O
+ PORT pldma_0_rst_pin = pldma_0_rst, DIR = O
+ PORT pldma_mrd_0_u_debug_pin = pldma_mrd_0_u_debug, DIR = O, VEC = [139:0]
+ PORT pldma_mrd_0_rd_clk_pin = pldma_mrd_0_rd_clk, DIR = I
+ PORT pldma_mrd_0_data_rd_pin = pldma_mrd_0_data_rd, DIR = O, VEC = [31:0]
+ PORT pldma_mrd_0_rd_en_pin = pldma_mrd_0_rd_en, DIR = I
+ PORT pldma_mrd_0_aempty_pin = pldma_mrd_0_aempty, DIR = O
+ PORT pldma_mrd_0_rst_pin = pldma_mrd_0_rst, DIR = O
+ PORT mstclk_0 = processing_system7_0_FCLK_CLK0, DIR = O, SIGIS = NONE
+ PORT pldma_mwr_0_u_ctrl0_pin = pldma_mwr_0_u_ctrl0, DIR = O, VEC = [31:0]
+ PORT pldma_mwr_0_u_ctrl1_pin = pldma_mwr_0_u_ctrl1, DIR = O, VEC = [31:0]
+ PORT SPI0_SS_O_pin = processing_system7_0_SPI0_SS_O, DIR = O
+ PORT SPI0_MOSI_O_pin = processing_system7_0_SPI0_MOSI_O, DIR = O
+ PORT SPI0_MISO_I_pin = processing_system7_0_SPI0_MISO_I, DIR = I
+ PORT SPI0_SCLK_O_pin = processing_system7_0_SPI0_SCLK_O, DIR = O, SIGIS = CLK
+ PORT axi_hdmi_tx_16b_0_hdmi_data_pin = axi_hdmi_tx_16b_0_hdmi_data, DIR = O, VEC = [15:0]
+ PORT axi_hdmi_tx_16b_0_hdmi_clk_pin = axi_hdmi_tx_16b_0_hdmi_clk, DIR = O
+ PORT axi_hdmi_tx_16b_0_hdmi_vsync_pin = axi_hdmi_tx_16b_0_hdmi_vsync, DIR = O
+ PORT axi_hdmi_tx_16b_0_hdmi_hsync_pin = axi_hdmi_tx_16b_0_hdmi_hsync, DIR = O
+ PORT axi_hdmi_tx_16b_0_hdmi_data_e_pin = axi_hdmi_tx_16b_0_hdmi_data_e, DIR = O
+ PORT processing_system7_0_I2C1_SDA = processing_system7_0_I2C1_SDA, DIR = IO
+ PORT processing_system7_0_I2C1_SCL = processing_system7_0_I2C1_SCL, DIR = IO
+
+
+BEGIN processing_system7
+ PARAMETER INSTANCE = processing_system7_0
+ PARAMETER HW_VER = 4.03.a
+ PARAMETER C_DDR_RAM_HIGHADDR = 0x1FFFFFFF
+ PARAMETER C_EN_EMIO_CAN0 = 0
+ PARAMETER C_EN_EMIO_CAN1 = 0
+ PARAMETER C_EN_EMIO_ENET0 = 0
+ PARAMETER C_EN_EMIO_ENET1 = 0
+ PARAMETER C_EN_EMIO_I2C0 = 0
+ PARAMETER C_EN_EMIO_I2C1 = 1
+ PARAMETER C_EN_EMIO_PJTAG = 0
+ PARAMETER C_EN_EMIO_SDIO0 = 0
+ PARAMETER C_EN_EMIO_CD_SDIO0 = 0
+ PARAMETER C_EN_EMIO_WP_SDIO0 = 0
+ PARAMETER C_EN_EMIO_SDIO1 = 0
+ PARAMETER C_EN_EMIO_CD_SDIO1 = 0
+ PARAMETER C_EN_EMIO_WP_SDIO1 = 0
+ PARAMETER C_EN_EMIO_SPI0 = 1
+ PARAMETER C_EN_EMIO_SPI1 = 0
+ PARAMETER C_EN_EMIO_SRAM_INT = 0
+ PARAMETER C_EN_EMIO_TRACE = 0
+ PARAMETER C_EN_EMIO_TTC0 = 1
+ PARAMETER C_EN_EMIO_TTC1 = 0
+ PARAMETER C_EN_EMIO_UART0 = 0
+ PARAMETER C_EN_EMIO_UART1 = 0
+ PARAMETER C_EN_EMIO_MODEM_UART0 = 0
+ PARAMETER C_EN_EMIO_MODEM_UART1 = 0
+ PARAMETER C_EN_EMIO_WDT = 1
+ PARAMETER C_EN_QSPI = 0
+ PARAMETER C_EN_SMC = 1
+ PARAMETER C_EN_CAN0 = 0
+ PARAMETER C_EN_CAN1 = 0
+ PARAMETER C_EN_ENET0 = 1
+ PARAMETER C_EN_ENET1 = 0
+ PARAMETER C_EN_I2C0 = 1
+ PARAMETER C_EN_I2C1 = 1
+ PARAMETER C_EN_PJTAG = 0
+ PARAMETER C_EN_SDIO0 = 1
+ PARAMETER C_EN_SDIO1 = 0
+ PARAMETER C_EN_SPI0 = 1
+ PARAMETER C_EN_SPI1 = 0
+ PARAMETER C_EN_TRACE = 0
+ PARAMETER C_EN_TTC0 = 1
+ PARAMETER C_EN_TTC1 = 0
+ PARAMETER C_EN_UART0 = 1
+ PARAMETER C_EN_UART1 = 0
+ PARAMETER C_EN_MODEM_UART0 = 0
+ PARAMETER C_EN_MODEM_UART1 = 0
+ PARAMETER C_EN_USB0 = 1
+ PARAMETER C_EN_USB1 = 0
+ PARAMETER C_EN_WDT = 1
+ PARAMETER C_EN_DDR = 1
+ PARAMETER C_EN_GPIO = 1
+ PARAMETER C_FCLK_CLK0_FREQ = 187500000
+ PARAMETER C_FCLK_CLK1_FREQ = 150000000
+ PARAMETER C_FCLK_CLK2_FREQ = 100000000
+ PARAMETER C_FCLK_CLK3_FREQ = 50000000
+ PARAMETER C_USE_CR_FABRIC = 1
+ PARAMETER C_USE_M_AXI_GP0 = 1
+ PARAMETER C_USE_S_AXI_HP0 = 1
+ PARAMETER C_S_AXI_HP0_DATA_WIDTH = 64
+ PARAMETER C_USE_S_AXI_HP3 = 0
+ PARAMETER C_INTERCONNECT_S_AXI_HP3_MASTERS = pldma_mrd_0.M_AXI
+ PARAMETER C_USE_S_AXI_HP2 = 1
+ PARAMETER C_EN_EMIO_GPIO = 1
+ PARAMETER C_EMIO_GPIO_WIDTH = 1
+ PARAMETER C_INTERCONNECT_S_AXI_HP0_MASTERS = pldma_mrd_0.M_AXI & pldma_mwr_0.M_AXI
+ PARAMETER C_INTERCONNECT_S_AXI_HP2_MASTERS = axi_vdma_0.M_AXI_MM2S
+ PARAMETER C_S_AXI_HP0_BASEADDR = 0x00000000
+ PARAMETER C_S_AXI_HP0_HIGHADDR = 0x1FFFFFFF
+ PARAMETER C_S_AXI_HP2_BASEADDR = 0x00000000
+ PARAMETER C_S_AXI_HP2_HIGHADDR = 0x1FFFFFFF
+ BUS_INTERFACE M_AXI_GP0 = axi_gp0
+ BUS_INTERFACE S_AXI_HP0 = axi_hp0
+ BUS_INTERFACE S_AXI_HP2 = axi_hp2
+ PORT MIO = processing_system7_0_MIO
+ PORT PS_SRSTB = processing_system7_0_PS_SRSTB
+ PORT PS_CLK = processing_system7_0_PS_CLK
+ PORT PS_PORB = processing_system7_0_PS_PORB
+ PORT DDR_Clk = processing_system7_0_DDR_Clk
+ PORT DDR_Clk_n = processing_system7_0_DDR_Clk_n
+ PORT DDR_CKE = processing_system7_0_DDR_CKE
+ PORT DDR_CS_n = processing_system7_0_DDR_CS_n
+ PORT DDR_RAS_n = processing_system7_0_DDR_RAS_n
+ PORT DDR_CAS_n = processing_system7_0_DDR_CAS_n
+ PORT DDR_WEB = processing_system7_0_DDR_WEB
+ PORT DDR_BankAddr = processing_system7_0_DDR_BankAddr
+ PORT DDR_Addr = processing_system7_0_DDR_Addr
+ PORT DDR_ODT = processing_system7_0_DDR_ODT
+ PORT DDR_DRSTB = processing_system7_0_DDR_DRSTB
+ PORT DDR_DQ = processing_system7_0_DDR_DQ
+ PORT DDR_DM = processing_system7_0_DDR_DM
+ PORT DDR_DQS = processing_system7_0_DDR_DQS
+ PORT DDR_DQS_n = processing_system7_0_DDR_DQS_n
+ PORT DDR_VRN = processing_system7_0_DDR_VRN
+ PORT DDR_VRP = processing_system7_0_DDR_VRP
+ PORT FCLK_RESET0_N = processing_system7_0_FCLK_RESET0_N
+ PORT M_AXI_GP0_ACLK = processing_system7_0_FCLK_CLK2
+ PORT S_AXI_HP0_ACLK = processing_system7_0_FCLK_CLK0
+ PORT SPI0_SS_I = net_vcc
+ PORT SPI0_SS_O = processing_system7_0_SPI0_SS_O
+ PORT SPI0_MOSI_O = processing_system7_0_SPI0_MOSI_O
+ PORT SPI0_MISO_I = processing_system7_0_SPI0_MISO_I
+ PORT SPI0_SCLK_O = processing_system7_0_SPI0_SCLK_O
+# 200MHz
+ PORT FCLK_CLK0 = processing_system7_0_FCLK_CLK0
+# 100MHz
+ PORT FCLK_CLK2 = processing_system7_0_FCLK_CLK2
+# 150MHz for HDMI 1080p
+ PORT FCLK_CLK1 = clk150mhz
+ PORT IRQ_F2P = axi_vdma_0_mm2s_introut
+ PORT S_AXI_HP2_ACLK = clk150mhz
+ PORT I2C1_SDA = processing_system7_0_I2C1_SDA
+ PORT I2C1_SCL = processing_system7_0_I2C1_SCL
+END
+
+BEGIN axi_interconnect
+ PARAMETER INSTANCE = axi_gp0
+ PARAMETER HW_VER = 1.06.a
+ PARAMETER C_INTERCONNECT_CONNECTIVITY_MODE = 0
+ PORT INTERCONNECT_ARESETN = sys_reset_n_Interconnect_aresetn
+ PORT INTERCONNECT_ACLK = processing_system7_0_FCLK_CLK2
+END
+
+BEGIN axi_interconnect
+ PARAMETER INSTANCE = axi_hp0
+ PARAMETER HW_VER = 1.06.a
+ PARAMETER C_INTERCONNECT_CONNECTIVITY_MODE = 1
+ PORT INTERCONNECT_ARESETN = sys_reset_n_Interconnect_aresetn
+ PORT INTERCONNECT_ACLK = processing_system7_0_FCLK_CLK0
+END
+
+BEGIN proc_sys_reset
+ PARAMETER INSTANCE = sys_reset_n
+ PARAMETER HW_VER = 3.00.a
+ PARAMETER C_EXT_RESET_HIGH = 0
+ PORT Ext_Reset_In = processing_system7_0_FCLK_RESET0_N
+ PORT Dcm_locked = 0b1
+ PORT Interconnect_aresetn = sys_reset_n_Interconnect_aresetn
+ PORT Slowest_sync_clk = processing_system7_0_FCLK_CLK2
+END
+
+BEGIN pldma_mwr
+ PARAMETER INSTANCE = pldma_mwr_0
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_INTERCONNECT_M_AXI_WRITE_FIFO_DEPTH = 512
+ PARAMETER C_INTERCONNECT_M_AXI_READ_FIFO_DEPTH = 512
+ PARAMETER C_MAX_BURST_LEN = 256
+ PARAMETER C_BASEADDR = 0x41210000
+ PARAMETER C_HIGHADDR = 0x4121ffff
+ BUS_INTERFACE S_AXI = axi_gp0
+ BUS_INTERFACE M_AXI = axi_hp0
+ PORT S_AXI_ACLK = processing_system7_0_FCLK_CLK2
+ PORT m_axi_aclk = processing_system7_0_FCLK_CLK0
+ PORT u_debug = pldma_0_u_debug
+ PORT wr_clk = pldma_0_wr_clk
+ PORT data_wr = pldma_0_data_wr
+ PORT wr_en = pldma_0_wr_en
+ PORT afull = pldma_0_afull
+ PORT rst = pldma_0_rst
+ PORT u_ctrl0 = pldma_mwr_0_u_ctrl0
+ PORT u_ctrl1 = pldma_mwr_0_u_ctrl1
+END
+
+BEGIN pldma_mrd
+ PARAMETER INSTANCE = pldma_mrd_0
+ PARAMETER HW_VER = 2.00.a
+ PARAMETER C_INTERCONNECT_M_AXI_WRITE_FIFO_DEPTH = 512
+ PARAMETER C_INTERCONNECT_M_AXI_READ_FIFO_DEPTH = 512
+ PARAMETER C_MAX_BURST_LEN = 256
+ PARAMETER C_BASEADDR = 0x41220000
+ PARAMETER C_HIGHADDR = 0x4122ffff
+ BUS_INTERFACE M_AXI = axi_hp0
+ BUS_INTERFACE S_AXI = axi_gp0
+ PORT S_AXI_ACLK = processing_system7_0_FCLK_CLK2
+ PORT m_axi_aclk = processing_system7_0_FCLK_CLK0
+ PORT u_debug = pldma_mrd_0_u_debug
+ PORT rd_clk = pldma_mrd_0_rd_clk
+ PORT data_rd = pldma_mrd_0_data_rd
+ PORT rd_en = pldma_mrd_0_rd_en
+ PORT aempty = pldma_mrd_0_aempty
+ PORT rst = pldma_mrd_0_rst
+END
+
+BEGIN axi_vdma
+ PARAMETER INSTANCE = axi_vdma_0
+ PARAMETER HW_VER = 5.04.a
+ PARAMETER C_INCLUDE_S2MM = 0
+ PARAMETER C_BASEADDR = 0x40430000
+ PARAMETER C_HIGHADDR = 0x4043FFFF
+ PARAMETER C_DYNAMIC_RESOLUTION = 0
+ PARAMETER C_M_AXI_MM2S_DATA_WIDTH = 64
+ PARAMETER C_M_AXIS_MM2S_TDATA_WIDTH = 64
+ PARAMETER C_MM2S_LINEBUFFER_THRESH = 8
+ BUS_INTERFACE S_AXI_LITE = axi_gp0
+ BUS_INTERFACE M_AXI_MM2S = axi_hp2
+ BUS_INTERFACE M_AXIS_MM2S = axi_vdma_0_M_AXIS_MM2S
+ PORT s_axi_lite_aclk = processing_system7_0_FCLK_CLK2
+ PORT m_axi_mm2s_aclk = processing_system7_0_FCLK_CLK0
+ PORT m_axis_mm2s_aclk = clk150mhz
+ PORT mm2s_fsync = axi_hdmi_out_vdma_fs
+ PORT mm2s_fsync_out = axi_vdma_0_mm2s_fsync_out
+ PORT mm2s_buffer_almost_empty = axi_vdma_0_mm2s_buffer_almost_empty
+ PORT mm2s_buffer_empty = axi_vdma_0_mm2s_buffer_empty
+ PORT mm2s_introut = axi_vdma_0_mm2s_introut
+END
+
+BEGIN axi_hdmi_tx_16b
+ PARAMETER INSTANCE = axi_hdmi_tx_16b_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x40420000
+ PARAMETER C_HIGHADDR = 0x4042FFFF
+ BUS_INTERFACE S_AXI = axi_gp0
+ BUS_INTERFACE M_AXIS_MM2S = axi_vdma_0_M_AXIS_MM2S
+ PORT S_AXI_ACLK = processing_system7_0_FCLK_CLK2
+ PORT hdmi_data = axi_hdmi_tx_16b_0_hdmi_data
+ PORT hdmi_clk = axi_hdmi_tx_16b_0_hdmi_clk
+ PORT hdmi_vsync = axi_hdmi_tx_16b_0_hdmi_vsync
+ PORT hdmi_hsync = axi_hdmi_tx_16b_0_hdmi_hsync
+ PORT hdmi_data_e = axi_hdmi_tx_16b_0_hdmi_data_e
+ PORT hdmi_ref_clk = clk150mhz
+ PORT vdma_clk = clk150mhz
+ PORT vdma_fs = axi_hdmi_out_vdma_fs
+ PORT vdma_fs_ret = axi_vdma_0_mm2s_fsync_out
+ PORT vdma_almost_empty = axi_vdma_0_mm2s_buffer_almost_empty
+ PORT vdma_empty = axi_vdma_0_mm2s_buffer_empty
+END
+
+BEGIN axi_interconnect
+ PARAMETER INSTANCE = axi_hp2
+ PARAMETER HW_VER = 1.06.a
+ PORT INTERCONNECT_ARESETN = sys_reset_n_Interconnect_aresetn
+ PORT INTERCONNECT_ACLK = clk150mhz
+END
+

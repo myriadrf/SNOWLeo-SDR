@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE POWERDATA PUBLIC "POWERDATA" "POWERDATA.dtd" >
+<POWERDATA author="XPS" dataVersion="2012.3" design="cpu0" >
+  <BLOCKDETAILS >
+    <CORE name="PS_Module" provider="XPS" content="WhiteBox" >
+      <BLOCKTYPE name="PS7" >
+        <PS7 >
+          <PROCESSOR name="system" numA9Cores="2" clockFreq="666.666666" load="0.5" />
+          <MEMORY name="code" memType="DDR3" dataWidth="32" clockFreq="533.333313" readRate="0.5" writeRate="0.5" />
+          <GPIO interface="GPIO_Bank_1" ioStandard="LVCMOS18" bidis="2" ioBank="Vcco_p1" clockFreq="1" usageRate="0.5" />
+          <GPIO interface="GPIO_Bank_0" ioStandard="LVCMOS18" bidis="2" ioBank="Vcco_p0" clockFreq="1" usageRate="0.5" />
+          <GPIO interface="Watchdog" ioStandard="" bidis="0" ioBank="" clockFreq="111.111112" usageRate="0.5" />
+          <GPIO interface="Timer" ioStandard="" bidis="0" ioBank="" clockFreq="111.111112" usageRate="0.5" />
+          <GPIO interface="SPI" ioStandard="" bidis="0" ioBank="" clockFreq="115.384616" usageRate="0.5" />
+          <GPIO interface="I2C" ioStandard="" bidis="0" ioBank="" clockFreq="111.111115" usageRate="0.5" />
+          <GPIO interface="I2C" ioStandard="LVCMOS18" bidis="2" ioBank="Vcco_p1" clockFreq="111.111115" usageRate="0.5" />
+          <GPIO interface="UART" ioStandard="LVCMOS18" bidis="2" ioBank="Vcco_p1" clockFreq="100.000000" usageRate="0.5" />
+          <GPIO interface="SD" ioStandard="LVCMOS18" bidis="6" ioBank="Vcco_p1" clockFreq="50.000000" usageRate="0.5" />
+          <GPIO interface="USB" ioStandard="LVCMOS18" bidis="12" ioBank="Vcco_p1" clockFreq="60" usageRate="0.5" />
+          <GPIO interface="GigE" ioStandard="LVCMOS18" bidis="14" ioBank="Vcco_p1" clockFreq="125.000000" usageRate="0.5" />
+          <GPIO interface="NAND" ioStandard="" bidis="14" ioBank="" clockFreq="100.000000" usageRate="0.5" />
+          <PLL domain="Processor" vco="1333.333376" />
+          <PLL domain="Memory" vco="1066.666688" />
+          <PLL domain="IO" vco="1500.000000" />
+        </PS7>
+      </BLOCKTYPE>
+    </CORE>
+  </BLOCKDETAILS>
+</POWERDATA>

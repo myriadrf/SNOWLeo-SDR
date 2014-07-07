@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.runs\impl_1\dma_demo_routed.ncd
+OUTFILE=J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.runs\impl_1\dma_demo.bit
+FAMILY=Zynq
+PART=xc7z010-1clg400
+WORKINGDIR=J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.runs\impl_1
+LICENSE=WebPack
+USER_INFO=_

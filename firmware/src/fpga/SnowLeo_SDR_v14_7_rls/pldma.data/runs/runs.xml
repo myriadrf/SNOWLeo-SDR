@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" LaunchPart="xc7z010clg400-1" ConstrsSet="constrs_1" Description="PlanAhead Defaults (XST defaults with hierarchy)" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1401248026">
+		<File Type="XST-NGC" Name="dma_demo.ngc"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="XST-SRP" Name="dma_demo.srp"/>
+		<File Type="PA-XST" Name="dma_demo.xst"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="PA-XSTPRJ" Name="dma_demo.prj"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7z010clg400-1" LaunchPart="xc7z010clg400-1" ConstrsSet="constrs_1" Description="ISE Defaults, including packing registers in IOs off" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1401248112">
+		<File Type="PA-EDIF" Name="dma_demo.edf"/>
+		<File Type="MAP-PSR" Name="dma_demo.psr"/>
+		<File Type="PA-UCF" Name="dma_demo.ucf"/>
+		<File Type="PAR-NCD" Name="dma_demo_routed.ncd"/>
+		<File Type="PAR-PAD" Name="dma_demo_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="dma_demo_routed.par"/>
+		<File Type="PAR-UNR" Name="dma_demo_routed.unroutes"/>
+		<File Type="BG-BIT" Name="dma_demo.bit"/>
+		<File Type="BG-DRC" Name="dma_demo.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="dma_demo.bgn"/>
+		<File Type="TRCE-TWR" Name="dma_demo.twr"/>
+		<File Type="TRCE-TWX" Name="dma_demo.twx"/>
+		<File Type="XDL-XDL" Name="dma_demo_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="NGDB-NGD" Name="dma_demo.ngd"/>
+		<File Type="NGDB-BLD" Name="dma_demo.bld"/>
+		<File Type="MAP-NCD" Name="dma_demo.ncd"/>
+		<File Type="MAP-PCF" Name="dma_demo.pcf"/>
+		<File Type="MAP-MRP" Name="dma_demo.mrp"/>
+		<File Type="MAP-MAP" Name="dma_demo.map"/>
+	</Run>
+</Runs>
+

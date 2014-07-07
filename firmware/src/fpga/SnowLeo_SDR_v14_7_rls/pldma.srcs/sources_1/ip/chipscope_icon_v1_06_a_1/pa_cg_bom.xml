@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="icon_v1_06_a_1">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./model_parameter_resolution_generator.xlog" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./icon_v1_06_a_1.xco" type="xco" timestamp="Wed May 14 09:09:21 GMT 2014" checksum="0xDB6F97E2"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./icon_v1_06_a_1.constraints/icon_v1_06_a_1.ucf" type="ucf" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0x4E907B10"></File>
+        <File name="./icon_v1_06_a_1.constraints/icon_v1_06_a_1.xdc" type="xdc" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0x23B3A75F"></File>
+        <File name="./icon_v1_06_a_1.ngc" type="ngc" timestamp="Wed May 14 09:10:02 GMT 2014" checksum="0xF703CD74"></File>
+        <File name="./icon_v1_06_a_1.ucf" type="ignore" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0x4E907B10"></File>
+        <File name="./icon_v1_06_a_1.v" type="verilog" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0x00F023C3"></File>
+        <File name="./icon_v1_06_a_1.veo" type="veo" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0x25AD6B04"></File>
+        <File name="./icon_v1_06_a_1.xdc" type="ignore" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0x23B3A75F"></File>
+        <File name="./icon_v1_06_a_1_xmdf.tcl" type="tcl" timestamp="Wed May 14 09:09:23 GMT 2014" checksum="0xD2136557"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./instantiation_template_generator.xlog" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./icon_v1_06_a_1.asy" type="asy" timestamp="Wed May 14 09:10:03 GMT 2014" checksum="0xB54EE9DB"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./xmdf_generator.xlog" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./icon_v1_06_a_1.gise" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0x0BE49EF1"></File>
+        <File name="./icon_v1_06_a_1.xise" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0x621D0F1E"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./icon_v1_06_a_1_readme.txt" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0x2FB1C192"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./icon_v1_06_a_1_flist.txt" type="ignore" timestamp="Wed May 14 09:10:12 GMT 2014" checksum="0xCD66B70E"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

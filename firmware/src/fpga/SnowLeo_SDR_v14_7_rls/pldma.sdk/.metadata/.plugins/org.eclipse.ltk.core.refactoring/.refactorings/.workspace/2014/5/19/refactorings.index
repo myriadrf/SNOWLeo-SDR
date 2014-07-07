@@ -1,0 +1,7 @@
+1399624241813	Delete resource 'hello'
+1399628938838	Delete resource 'hello_mmc_bsp'
+1399628945586	Delete resource 'hello_mmc'
+1399630841080	Delete resource 'i2c_spi_polled_app_bsp'
+1399630888261	Delete resource 'i2c_spi_polled_app/src/helloworld.c'
+1399630901481	Delete 2 resources
+1399630931627	Delete resource 'i2c_spi_polled_app'

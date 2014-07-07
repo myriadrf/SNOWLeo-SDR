@@ -1,0 +1,34 @@
+#Please do not modify this file by hand
+XmpVersion: 14.7
+VerMgmt: 14.7
+IntStyle: default
+Flow: ise
+ModuleSearchPath: pcores/pldma_mwr_v2_00_a/../../../
+MHS File: cpu0.mhs
+Architecture: zynq
+Device: xc7z010
+Package: clg400
+SpeedGrade: -1
+UserCmd1: 
+UserCmd1Type: 0
+UserCmd2: 
+UserCmd2Type: 0
+GenSimTB: 0
+SdkExportBmmBit: 1
+SdkExportDir: SDK/SDK_Export
+InsertNoPads: 1
+WarnForEAArch: 1
+HdlLang: verilog
+SimModel: BEHAVIORAL
+ExternalMemSim: 0
+UcfFile: data/cpu0.ucf
+EnableParTimingError: 1
+ShowLicenseDialog: 1
+BInfo: 
+LockAddr: pldma_mwr_0,C_BASEADDR
+LockAddr: pldma_mrd_0,C_BASEADDR
+LockAddr: axi_hdmi_tx_16b_0,C_BASEADDR
+LockAddr: axi_vdma_0,C_BASEADDR
+Processor: processing_system7_0
+ElfImp: 
+ElfSim: 

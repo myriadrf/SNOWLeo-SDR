@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="clk_wiz_v3_6_1">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Fri Apr 25 06:33:13 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./model_parameter_resolution_generator.xlog" type="ignore" timestamp="Fri Apr 25 06:33:13 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./clk_wiz_v3_6_1.xco" type="xco" timestamp="Fri Apr 25 06:32:42 GMT 2014" checksum="0x25077B0E"></File>
+      </FileSet>
+      <FileSet generator="tcl_flow_generator">
+        <File name="./clk_wiz_v3_6_1/example_design/clk_wiz_v3_6_1_exdes.ucf" type="ucf" timestamp="Fri Apr 25 06:32:49 GMT 2014" checksum="0x4DDE2BCA"></File>
+        <File name="./clk_wiz_v3_6_1/example_design/clk_wiz_v3_6_1_exdes.v" type="verilog" timestamp="Fri Apr 25 06:32:43 GMT 2014" checksum="0x1C517B9A"></File>
+        <File name="./clk_wiz_v3_6_1/example_design/clk_wiz_v3_6_1_exdes.xdc" type="ignore" timestamp="Fri Apr 25 06:32:49 GMT 2014" checksum="0x60371322"></File>
+        <File name="./clk_wiz_v3_6_1/implement/implement.bat" type="ignore" timestamp="Fri Apr 25 06:32:49 GMT 2014" checksum="0x2A43EF09"></File>
+        <File name="./clk_wiz_v3_6_1/implement/implement.sh" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0x8C96D263"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_ise.bat" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0x6966A508"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_ise.sh" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0x7F8B5943"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_ise.tcl" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0xEDE7E4B1"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_rdn.bat" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0xB9373CFA"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_rdn.sh" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0xDCE9D96C"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_rdn.tcl" type="ignore" timestamp="Fri Apr 25 06:32:48 GMT 2014" checksum="0x8C527486"></File>
+        <File name="./clk_wiz_v3_6_1/implement/xst.prj" type="ignore" timestamp="Fri Apr 25 06:32:49 GMT 2014" checksum="0xB38AB152"></File>
+        <File name="./clk_wiz_v3_6_1/implement/xst.scr" type="ignore" timestamp="Fri Apr 25 06:32:50 GMT 2014" checksum="0x5818C45F"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/clk_wiz_v3_6_1_tb.v" type="ignore" timestamp="Fri Apr 25 06:32:43 GMT 2014" checksum="0x8C81B35A"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simcmds.tcl" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0x8908C198"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0xCA43D9CD"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_isim.sh" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0x28300B5B"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x1167C2EB"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_mti.do" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x1A7072B6"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Fri Apr 25 06:32:44 GMT 2014" checksum="0xE0343588"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x10BF3F20"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x9DBDB3C5"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/ucli_commands.key" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x39606B10"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x24CABB68"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/wave.do" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x8E626855"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/wave.sv" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0xE99FC53B"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/clk_wiz_v3_6_1_tb.v" type="ignore" timestamp="Fri Apr 25 06:32:44 GMT 2014" checksum="0xE888C1A4"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/sdf_cmd_file" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0x0FDB8A0C"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simcmds.tcl" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x6896064F"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_isim.sh" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0x94555D13"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x3E210AFD"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_mti.do" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0xE3FDFD1A"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x3EBFD927"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Fri Apr 25 06:32:46 GMT 2014" checksum="0xE66B9974"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x0F3058FF"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/ucli_commands.key" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x9DC0E037"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Fri Apr 25 06:32:47 GMT 2014" checksum="0x28340249"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/wave.do" type="ignore" timestamp="Fri Apr 25 06:32:45 GMT 2014" checksum="0x47882178"></File>
+        <File name="./clk_wiz_v3_6_1.ucf" type="ignore" timestamp="Fri Apr 25 06:32:49 GMT 2014" checksum="0xC6660F1E"></File>
+        <File name="./clk_wiz_v3_6_1.v" type="verilog" timestamp="Fri Apr 25 06:32:43 GMT 2014" checksum="0xF055E0AD"></File>
+        <File name="./clk_wiz_v3_6_1.veo" type="veo" timestamp="Fri Apr 25 06:32:44 GMT 2014" checksum="0x3D975248"></File>
+        <File name="./clk_wiz_v3_6_1.xdc" type="ignore" timestamp="Fri Apr 25 06:32:49 GMT 2014" checksum="0x83D43132"></File>
+        <File name="./clk_wiz_v3_6_1_xmdf.tcl" type="tcl" timestamp="Fri Apr 25 06:32:44 GMT 2014" checksum="0xC43F6119"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./clk_wiz_v3_6_1/clk_wiz_v3_6_readme.txt" type="ignore" timestamp="Tue Dec 18 05:13:02 GMT 2012" checksum="0xBC2B1089"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./clk_wiz_v3_6_1/example_design/clk_wiz_v3_6_1_exdes.ucf" type="ucf" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x4DDE2BCA"></File>
+        <File name="./clk_wiz_v3_6_1/example_design/clk_wiz_v3_6_1_exdes.v" type="verilog" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x1C517B9A"></File>
+        <File name="./clk_wiz_v3_6_1/example_design/clk_wiz_v3_6_1_exdes.xdc" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x60371322"></File>
+        <File name="./clk_wiz_v3_6_1/implement/implement.bat" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x2A43EF09"></File>
+        <File name="./clk_wiz_v3_6_1/implement/implement.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x8C96D263"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_ise.bat" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x6966A508"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_ise.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x7F8B5943"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_ise.tcl" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xEDE7E4B1"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_rdn.bat" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xB9373CFA"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_rdn.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xDCE9D96C"></File>
+        <File name="./clk_wiz_v3_6_1/implement/planAhead_rdn.tcl" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x8C527486"></File>
+        <File name="./clk_wiz_v3_6_1/implement/xst.prj" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xB38AB152"></File>
+        <File name="./clk_wiz_v3_6_1/implement/xst.scr" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x5818C45F"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/clk_wiz_v3_6_1_tb.v" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x8C81B35A"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simcmds.tcl" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x8908C198"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xCA43D9CD"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_isim.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x28300B5B"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x1167C2EB"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_mti.do" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x1A7072B6"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xE0343588"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x10BF3F20"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x9DBDB3C5"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/ucli_commands.key" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x39606B10"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x24CABB68"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/wave.do" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x8E626855"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/functional/wave.sv" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xE99FC53B"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/clk_wiz_v3_6_1_tb.v" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xE888C1A4"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/sdf_cmd_file" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x0FDB8A0C"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simcmds.tcl" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x6896064F"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_isim.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x94555D13"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x3E210AFD"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_mti.do" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xE3FDFD1A"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x3EBFD927"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xE66B9974"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x0F3058FF"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/ucli_commands.key" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x9DC0E037"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x28340249"></File>
+        <File name="./clk_wiz_v3_6_1/simulation/timing/wave.do" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x47882178"></File>
+        <File name="./clk_wiz_v3_6_1.ucf" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xC6660F1E"></File>
+        <File name="./clk_wiz_v3_6_1.v" type="verilog" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xF055E0AD"></File>
+        <File name="./clk_wiz_v3_6_1.veo" type="veo" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x3D975248"></File>
+        <File name="./clk_wiz_v3_6_1.xdc" type="ignore" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0x83D43132"></File>
+        <File name="./clk_wiz_v3_6_1_xmdf.tcl" type="tcl" timestamp="Fri Apr 25 06:32:51 GMT 2014" checksum="0xC43F6119"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./clk_wiz_v3_6_1/doc/clk_wiz_v3_6_readme.txt" type="ignore" timestamp="Fri Apr 25 06:32:56 GMT 2014" checksum="0xBC2B1089"></File>
+        <File name="./clk_wiz_v3_6_1/doc/clk_wiz_v3_6_vinfo.html" type="ignore" timestamp="Fri Apr 25 06:32:56 GMT 2014" checksum="0x5F1E9266"></File>
+        <File name="./clk_wiz_v3_6_1/doc/pg065_clk_wiz.pdf" type="ignore" timestamp="Fri Apr 25 06:32:56 GMT 2014" checksum="0x2F883891"></File>
+      </FileSet>
+      <FileSet generator="readme_documents_generator">
+        <File name="./readme_documents_generator.xlog" type="ignore" timestamp="Fri Apr 25 06:33:14 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./clk_wiz_v3_6_1.asy" type="asy" timestamp="Fri Apr 25 06:33:09 GMT 2014" checksum="0x2629EB6B"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./clk_wiz_v3_6_1.gise" type="ignore" timestamp="Fri Apr 25 06:33:13 GMT 2014" checksum="0x038C9BC2"></File>
+        <File name="./clk_wiz_v3_6_1.xise" type="ignore" timestamp="Fri Apr 25 06:33:13 GMT 2014" checksum="0xCD47C61C"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Fri Apr 25 06:33:14 GMT 2014" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./clk_wiz_v3_6_1_flist.txt" type="ignore" timestamp="Fri Apr 25 06:33:13 GMT 2014" checksum="0x8592BBC8"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

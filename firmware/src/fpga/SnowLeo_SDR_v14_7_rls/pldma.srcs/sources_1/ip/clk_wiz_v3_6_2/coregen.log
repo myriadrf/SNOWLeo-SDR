@@ -1,0 +1,56 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'clk_wiz_v3_6_2'...
+WARNING:sim - A core named 'clk_wiz_v3_6_2' already exists in the project.
+   Output products for this core may be overwritten.
+Applying external generics to 'clk_wiz_v3_6_2'...
+Delivering associated files for 'clk_wiz_v3_6_2'...
+WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'clk_wiz_v3_6_2'...
+Delivered 3 files into directory
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2
+Delivered 1 file into directory
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2
+Generating ASY schematic symbol...
+Loading device for application Rf_Device from file '7z010.nph' in environment
+C:\xilinx14.7\14.7\ISE_DS\ISE\.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating ISE project...
+XCO file found: clk_wiz_v3_6_2.xco
+XMDF file found: clk_wiz_v3_6_2_xmdf.tcl
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2.asy -view all
+-origin_type imported
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2.ucf -view all
+-origin_type created
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls
+   /pldma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2.v" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/clk_wiz_v3_6_2/tmp/_cg/clk_wiz_v3_6_2.veo -view all
+-origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/clk_wiz_v3_6_2"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'coregen'.

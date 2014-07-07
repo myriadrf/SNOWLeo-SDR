@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          J:\zing_pro\zing_pldma_v144\pldma.srcs\sources_1\edk\cpu0/drivers/pldma_v2_00_a/data/pldma_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Wed Jan 22 10:14:00 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER pldma
+
+  OPTION supported_peripherals = (pldma);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

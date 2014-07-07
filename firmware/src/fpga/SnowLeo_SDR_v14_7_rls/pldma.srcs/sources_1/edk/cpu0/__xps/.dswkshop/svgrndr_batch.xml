@@ -1,0 +1,24 @@
+
+<RENDERBATCH>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\processing_system7_0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\processing_system7_0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\processing_system7_0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_gp0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_gp0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\axi_gp0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_hp0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_hp0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\axi_hp0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\sys_reset_n.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\sys_reset_n.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\sys_reset_n.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\pldma_mwr_0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\pldma_mwr_0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\pldma_mwr_0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\pldma_mrd_0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\pldma_mrd_0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\pldma_mrd_0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_vdma_0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_vdma_0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\axi_vdma_0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_hdmi_tx_16b_0.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_hdmi_tx_16b_0.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\axi_hdmi_tx_16b_0.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_hp2.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\axi_hp2.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\axi_hp2.svg"/>
+
+  <RENDERIMG RASNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\cpu0_blkd.jpg" SVGNAME="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\imgs\cpu0_blkd.svg" TMPSVGFN="J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\__xps\.dswkshop\cpu0_blkd.svg"/>
+
+</RENDERBATCH>

@@ -1,0 +1,17 @@
+-p
+xc7z010clg400-1
+-lang
+verilog
+-intstyle
+pa
+-lp
+J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.srcs/sources_1/edk/
+-msg
+__xps/ise/xmsgprops.lst
+-s
+isim
+-X
+J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.srcs/sources_1/edk/cpu0/
+-m
+behavioral
+cpu0.mhs
