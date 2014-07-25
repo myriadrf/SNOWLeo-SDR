@@ -1,0 +1,23 @@
+19:01:18 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+libgen -hw ../cpu0_hw_platform/system.xml\
+	       \
+	       -pe ps7_cortexa9_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../cpu0_hw_platform/system.xml -pe ps7_cortexa9_0 -log
+libgen.log system.mss 
+
+ERROR:EDK:410 - gpio -
+   J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss
+   line 21 - No IP instance named axi_gpio_0 is present in the hardware!
+ERROR:EDK:1206 - Errors occured while parsing MSS file.
+make: *** [ps7_cortexa9_0/lib/libxil.a] 错误 2
+make: 由于错误目标“all”并未重新创建。
+
+19:01:20 Build Finished (took 1s.340ms)
+

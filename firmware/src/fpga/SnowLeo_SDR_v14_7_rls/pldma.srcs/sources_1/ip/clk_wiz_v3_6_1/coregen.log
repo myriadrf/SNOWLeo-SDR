@@ -1,0 +1,8 @@
+INFO:coreutil:879 - Reloading repositories because of a changed repository
+   configuration.
+INFO:coreutil:877 - Reloaded all repositories after a full directory search.
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Cancelled executing Tcl generator.
+Saved CGP file for project 'coregen'.

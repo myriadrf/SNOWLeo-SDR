@@ -1,0 +1,319 @@
+16:15:21.264 INFO  - Processing command line option -hwspec F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+16:19:23.287 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+16:21:19.878 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:21:19.978 INFO  - PS initialization will be done as it is not done before. 
+16:21:19.978 INFO  - Running PS initialization.... 
+16:21:20.549 INFO  - ps7_init is completed. 
+16:21:20.649 INFO  - ps7_post_config is completed. 
+16:21:20.749 INFO  - PS Initialization is complete. 
+16:22:34.074 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+16:22:51.841 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+16:22:51.843 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+16:22:51.844 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+16:23:00.122 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:23:00.126 INFO  - PS initialization will be done as it is not done before. 
+16:23:00.126 INFO  - Running PS initialization.... 
+16:23:00.717 INFO  - ps7_init is completed. 
+16:23:00.734 INFO  - ps7_post_config is completed. 
+16:23:00.834 INFO  - PS Initialization is complete. 
+16:24:08.525 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:25:36.056 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:29:02.267 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:30:06.354 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:32:25.140 INFO  - Settings changed on project standalone_bsp_0. Triggering a rebuild... 
+16:32:25.820 INFO  - Refreshed build settings on project spi_intr_app 
+16:34:03.386 INFO  - Settings changed on project standalone_bsp_0. Triggering a rebuild... 
+16:34:03.945 INFO  - Refreshed build settings on project spi_intr_app 
+16:35:14.482 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+16:35:14.482 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+16:35:14.483 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+16:35:42.831 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+16:35:48.025 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:35:48.125 INFO  - PS initialization will be done as it is not done before. 
+16:35:48.125 INFO  - Running PS initialization.... 
+16:35:48.715 INFO  - ps7_init is completed. 
+16:35:48.815 INFO  - ps7_post_config is completed. 
+16:35:48.915 INFO  - PS Initialization is complete. 
+16:36:48.245 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:37:00.690 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:37:18.052 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+16:37:22.873 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:37:22.973 INFO  - PS initialization will be done as it is not done before. 
+16:37:22.973 INFO  - Running PS initialization.... 
+16:37:23.481 INFO  - ps7_init is completed. 
+16:37:23.581 INFO  - ps7_post_config is completed. 
+16:37:23.681 INFO  - PS Initialization is complete. 
+16:38:26.610 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+16:38:42.101 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:38:42.201 INFO  - PS initialization will be done as it is not done before. 
+16:38:42.201 INFO  - Running PS initialization.... 
+16:38:42.749 INFO  - ps7_init is completed. 
+16:38:42.849 INFO  - ps7_post_config is completed. 
+16:38:42.949 INFO  - PS Initialization is complete. 
+16:41:00.559 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+16:41:00.559 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+16:41:00.560 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+16:41:19.017 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+16:41:22.821 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:41:22.921 INFO  - PS initialization will be done as it is not done before. 
+16:41:22.921 INFO  - Running PS initialization.... 
+16:41:23.466 INFO  - ps7_init is completed. 
+16:41:23.567 INFO  - ps7_post_config is completed. 
+16:41:23.667 INFO  - PS Initialization is complete. 
+16:41:48.547 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:42:08.030 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:01:04.196 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:01:58.479 INFO  - Processing command line option -hwspec F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+17:01:59.920 INFO  - The hardware specification for project 'cpu0_hw_platform' is different from F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+17:02:00.320 INFO  - Copied contents of F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml into \cpu0_hw_platform\system.xml. 
+17:02:00.324 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.c into \cpu0_hw_platform\ps7_init.c. 
+17:02:00.326 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.h into \cpu0_hw_platform\ps7_init.h. 
+17:02:00.328 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.html into \cpu0_hw_platform\ps7_init.html. 
+17:02:00.329 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.tcl into \cpu0_hw_platform\ps7_init.tcl. 
+17:02:00.498 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:02:02.442 INFO  - Updating hardware inferred compiler options for spi_intr_app. 
+17:02:02.450 INFO  - Clearing existing target manager status. 
+17:03:00.476 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+17:03:00.477 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+17:03:00.477 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+17:03:17.015 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:03:47.594 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:03:47.694 INFO  - PS initialization will be done as it is not done before. 
+17:03:47.694 INFO  - Running PS initialization.... 
+17:03:48.242 INFO  - ps7_init is completed. 
+17:03:48.342 INFO  - ps7_post_config is completed. 
+17:03:48.348 INFO  - PS Initialization is complete. 
+17:05:21.916 INFO  - The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace. 
+17:07:19.454 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+17:07:19.455 INFO  - Applying linker script to configuration Debug of project spi_intr_app. 
+17:07:19.455 INFO  - Setting rebuild state to true for configuration 'Debug' of project spi_intr_app. 
+17:07:30.868 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:08:19.960 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+17:08:19.961 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+17:08:19.961 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+17:09:56.238 WARN  - The current launch is configured to reset the entire system. However, the design contains multiple processors, and resetting the system will reset the other processors as well. If you would like to avoid this, please update the launch configuration to reset the processor only. 
+17:10:00.505 INFO  - System reset is completed. 
+17:10:00.505 INFO  - Running PS initialization.... 
+17:10:01.165 INFO  - ps7_init is completed. 
+17:10:01.265 INFO  - ps7_post_config is completed. 
+17:10:01.365 INFO  - PS Initialization is complete. 
+17:10:34.109 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:11:20.603 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:11:20.703 INFO  - PS initialization will be done as it is not done before. 
+17:11:20.703 INFO  - Running PS initialization.... 
+17:11:21.209 INFO  - ps7_init is completed. 
+17:11:21.309 INFO  - ps7_post_config is completed. 
+17:11:21.409 INFO  - PS Initialization is complete. 
+17:16:58.618 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:17:51.892 INFO  - ps7_init is completed. 
+17:17:51.911 INFO  - ps7_post_config is completed. 
+17:17:52.506 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:17:54.126 INFO  - Application is downloaded for ps7_cortexa9_0. (F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\Debug\spi_intr_app.elf) 
+17:18:49.284 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:20:20.280 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:20:46.933 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:20:52.568 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:20:52.668 INFO  - PS initialization will be done as it is not done before. 
+17:20:52.668 INFO  - Running PS initialization.... 
+17:20:53.194 INFO  - ps7_init is completed. 
+17:20:53.294 INFO  - ps7_post_config is completed. 
+17:20:53.394 INFO  - PS Initialization is complete. 
+17:21:20.594 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:21:27.201 INFO  - Processing command line option -hwspec F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+17:21:53.885 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:22:11.115 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:22:41.348 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+17:22:41.350 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+17:22:41.351 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+17:22:50.672 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:23:10.767 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:23:16.657 INFO  - Processing command line option -hwspec F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+17:23:52.652 INFO  - Processing command line option -hwspec F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+17:24:42.198 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+17:24:42.201 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+17:24:42.202 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+17:25:04.464 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:25:10.153 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:25:10.253 INFO  - PS initialization will be done as it is not done before. 
+17:25:10.253 INFO  - Running PS initialization.... 
+17:25:10.817 INFO  - ps7_init is completed. 
+17:25:10.917 INFO  - ps7_post_config is completed. 
+17:25:11.017 INFO  - PS Initialization is complete. 
+17:25:49.287 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+17:25:49.288 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+17:25:49.289 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+17:26:06.140 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:48:14.285 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+17:48:24.424 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:48:24.524 INFO  - PS initialization will be done as it is not done before. 
+17:48:24.524 INFO  - Running PS initialization.... 
+17:48:25.071 INFO  - ps7_init is completed. 
+17:48:25.171 INFO  - ps7_post_config is completed. 
+17:48:25.271 INFO  - PS Initialization is complete. 
+17:48:58.836 INFO  - Project hello_mmc_bsp was a BSP project. Please update references. 
+17:48:58.836 ERROR - SDK has detected that project hello_mmc_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+18:00:31.458 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:01:51.440 INFO  - Processing command line option -hwspec F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+18:01:53.568 INFO  - The hardware specification for project 'cpu0_hw_platform' is different from F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml. 
+18:01:54.120 INFO  - Copied contents of F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/sdr_soft/hw/cpu0.xml into \cpu0_hw_platform\system.xml. 
+18:01:54.126 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.c into \cpu0_hw_platform\ps7_init.c. 
+18:01:54.127 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.h into \cpu0_hw_platform\ps7_init.h. 
+18:01:54.130 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.html into \cpu0_hw_platform\ps7_init.html. 
+18:01:54.132 INFO  - Copied contents of F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\hw\ps7_init.tcl into \cpu0_hw_platform\ps7_init.tcl. 
+18:01:54.376 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:01:56.807 INFO  - Updating hardware inferred compiler options for spi_intr_app. 
+18:01:56.817 INFO  - Clearing existing target manager status. 
+18:03:11.254 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+18:03:32.195 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:03:32.295 INFO  - PS initialization will be done as it is not done before. 
+18:03:32.295 INFO  - Running PS initialization.... 
+18:03:33.031 INFO  - ps7_init is completed. 
+18:03:33.131 INFO  - ps7_post_config is completed. 
+18:03:33.231 INFO  - PS Initialization is complete. 
+18:03:56.888 INFO  - Successfully generated F:\ZYNQ\ZingNano\Zingnano_test\SNOWLeo_Sdr_Demo\SNOWLeo_Sdr_Demo0509_14.7rls\sdr_soft\spi_intr_app\src\lscript.ld. 
+18:03:56.889 INFO  - Applying linker script to all configurations of project spi_intr_app. 
+18:03:56.889 INFO  - Setting rebuild state to true for all configurations of project spi_intr_app. 
+18:04:10.113 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:08:36.325 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+18:08:41.216 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:08:41.316 INFO  - PS initialization will be done as it is not done before. 
+18:08:41.316 INFO  - Running PS initialization.... 
+18:08:42.172 INFO  - ps7_init is completed. 
+18:08:42.272 INFO  - ps7_post_config is completed. 
+18:08:42.372 INFO  - PS Initialization is complete. 
+18:17:08.960 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+18:17:15.034 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:17:15.134 INFO  - PS initialization will be done as it is not done before. 
+18:17:15.134 INFO  - Running PS initialization.... 
+18:17:15.796 INFO  - ps7_init is completed. 
+18:17:15.896 INFO  - ps7_post_config is completed. 
+18:17:15.996 INFO  - PS Initialization is complete. 
+18:17:27.087 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:17:37.781 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:17:54.035 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:19:13.289 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:20:41.062 INFO  - Project i2c_spi_polled_app_bsp was a BSP project. Please update references. 
+18:20:41.062 ERROR - SDK has detected that project i2c_spi_polled_app_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+18:25:13.143 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:26:54.926 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:38:52.223 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:39:41.972 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:40:40.052 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:42:37.866 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:43:14.834 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:44:39.136 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:00:40.421 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:19:13.365 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:00:40.429 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+11:00:46.486 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:00:46.586 INFO  - PS initialization will be done as it is not done before. 
+11:00:46.586 INFO  - Running PS initialization.... 
+11:00:47.167 INFO  - ps7_init is completed. 
+11:00:47.267 INFO  - ps7_post_config is completed. 
+11:00:47.367 INFO  - PS Initialization is complete. 
+11:00:59.283 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:02:25.750 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:04:37.654 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:05:32.480 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:09:00.141 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:20:11.777 INFO  - FPGA configured successfully with bitstream "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pldma.runs/impl_2/dma_demo.bit" 
+11:20:20.978 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:20:21.078 INFO  - PS initialization will be done as it is not done before. 
+11:20:21.078 INFO  - Running PS initialization.... 
+11:20:21.671 INFO  - ps7_init is completed. 
+11:20:21.771 INFO  - ps7_post_config is completed. 
+11:20:21.871 INFO  - PS Initialization is complete. 
+11:25:09.582 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:25:22.978 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:27:06.088 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:11:13.923 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+15:11:58.785 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    DONE bit didn't go HIGH after programming FPGA
+ 
+15:12:07.607 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:12:34.263 INFO  - FPGA configured successfully with bitstream "C:/Users/clevo/Desktop/dma_demo_chipscope.bit" 
+15:12:48.047 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:12:48.147 INFO  - PS initialization will be done as it is not done before. 
+15:12:48.147 INFO  - Running PS initialization.... 
+15:12:48.838 INFO  - ps7_init is completed. 
+15:12:48.938 INFO  - ps7_post_config is completed. 
+15:12:49.038 INFO  - PS Initialization is complete. 
+15:13:33.276 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:14:01.657 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:11:37.209 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:35:29.393 INFO  - Processing command line option -hwspec J:/zing_pro/snowleo/SnowLeo_SDR_v14_7/pldma.sdk/hw/cpu0.xml. 
+17:35:32.532 INFO  - The hardware specification for project 'cpu0_hw_platform' is different from J:/zing_pro/snowleo/SnowLeo_SDR_v14_7/pldma.sdk/hw/cpu0.xml. 
+17:35:33.068 INFO  - Copied contents of J:/zing_pro/snowleo/SnowLeo_SDR_v14_7/pldma.sdk/hw/cpu0.xml into \cpu0_hw_platform\system.xml. 
+17:35:33.101 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.c into \cpu0_hw_platform\ps7_init.c. 
+17:35:33.104 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.h into \cpu0_hw_platform\ps7_init.h. 
+17:35:33.111 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.html into \cpu0_hw_platform\ps7_init.html. 
+17:35:33.114 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.tcl into \cpu0_hw_platform\ps7_init.tcl. 
+17:35:33.562 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:35:38.201 INFO  - Updating hardware inferred compiler options for i2c_spi_polled_app. 
+17:35:38.952 INFO  - Updating hardware inferred compiler options for sdr_fsbl. 
+17:35:39.703 INFO  - Updating hardware inferred compiler options for spi_intr_app. 
+17:35:39.743 INFO  - Clearing existing target manager status. 
+17:35:42.938 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.c into \sdr_fsbl\src\ps7_init.c. 
+17:35:42.942 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.h into \sdr_fsbl\src\ps7_init.h. 
+17:35:42.982 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.html into \sdr_fsbl\src\ps7_init.html. 
+17:35:42.985 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.tcl into \sdr_fsbl\src\ps7_init.tcl. 
+18:59:58.674 INFO  - Project cpu0_hw_platform's source hardware specification located at J:/zing_pro/snowleo/SnowLeo_SDR_v14_7/pldma.sdk/hw/cpu0.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+19:01:11.657 INFO  - Copied contents of J:/zing_pro/snowleo/SnowLeo_SDR_v14_7/pldma.sdk/hw/cpu0.xml into \cpu0_hw_platform\system.xml. 
+19:01:11.808 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.c into \cpu0_hw_platform\ps7_init.c. 
+19:01:17.065 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.h into \cpu0_hw_platform\ps7_init.h. 
+19:01:17.069 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.html into \cpu0_hw_platform\ps7_init.html. 
+19:01:17.072 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\hw\ps7_init.tcl into \cpu0_hw_platform\ps7_init.tcl. 
+19:01:17.525 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:01:21.128 INFO  - Updating hardware inferred compiler options for i2c_spi_polled_app. 
+19:01:21.879 INFO  - Updating hardware inferred compiler options for sdr_fsbl. 
+19:01:22.630 INFO  - Updating hardware inferred compiler options for spi_intr_app. 
+19:01:22.668 INFO  - Clearing existing target manager status. 
+19:01:23.050 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.c into \sdr_fsbl\src\ps7_init.c. 
+19:01:23.054 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.h into \sdr_fsbl\src\ps7_init.h. 
+19:01:23.059 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.html into \sdr_fsbl\src\ps7_init.html. 
+19:01:23.063 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\cpu0_hw_platform\ps7_init.tcl into \sdr_fsbl\src\ps7_init.tcl. 
+19:04:07.054 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:04:12.774 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:04:21.743 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:04:21.858 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:04:21.940 WARN  - Unable to determine location of documentation for OS . 
+19:04:21.966 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:04:22.071 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:04:46.192 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:05:36.831 ERROR - Unable to read in MSS file J:\zing_pro\snowleo\SnowLeo_SDR_v14_7\pldma.sdk\standalone_bsp_0\system.mss. 
+19:05:48.029 INFO  - Project standalone_bsp_0 was a BSP project. Please update references. 
+19:05:48.029 ERROR - SDK has detected that project standalone_bsp_0 has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+14:08:55.868 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+14:08:55.946 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+09:57:36.679 INFO  - Invoking Bootgen:  
+09:57:41.255 INFO  - Bootgen command execution is done. 
+12:29:01.499 INFO  - Processing command line option -hwspec J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.sdk/hw/cpu0.xml. 
+12:29:04.756 INFO  - The hardware specification for project 'cpu0_hw_platform' is different from J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.sdk/hw/cpu0.xml. 
+12:29:05.358 INFO  - Copied contents of J:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.sdk/hw/cpu0.xml into \cpu0_hw_platform\system.xml. 
+12:29:05.438 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\ps7_init.c into \cpu0_hw_platform\ps7_init.c. 
+12:29:05.453 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\ps7_init.h into \cpu0_hw_platform\ps7_init.h. 
+12:29:05.471 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\ps7_init.html into \cpu0_hw_platform\ps7_init.html. 
+12:29:05.479 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\hw\ps7_init.tcl into \cpu0_hw_platform\ps7_init.tcl. 
+12:29:06.345 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:31:11.650 INFO  - Updating hardware inferred compiler options for sdr_fsbl. 
+12:31:11.738 INFO  - Clearing existing target manager status. 
+12:31:16.128 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/i2c_spi_polled_app' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+12:31:16.136 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\cpu0_hw_platform\ps7_init.c into \sdr_fsbl\src\ps7_init.c. 
+12:31:16.141 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\cpu0_hw_platform\ps7_init.h into \sdr_fsbl\src\ps7_init.h. 
+12:31:16.146 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\cpu0_hw_platform\ps7_init.html into \sdr_fsbl\src\ps7_init.html. 
+12:31:16.149 INFO  - Copied contents of J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.sdk\cpu0_hw_platform\ps7_init.tcl into \sdr_fsbl\src\ps7_init.tcl. 
+12:44:27.015 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

@@ -1,3 +1,3 @@
 # SNOWLeo SDR FPGA project
 
-Please note that the FPGA sources are currently under review and this is just a placeholder.
+SnowLeo_SDR_v14_7_rls.rar are based on the XILINX ISE14.7 version.

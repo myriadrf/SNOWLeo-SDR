@@ -1,0 +1,488 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "cpu0_sys_reset_n_wrapper_xst.prj"
+Verilog Include Directory          : {"J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\pcores\" "H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc7z010clg400-1
+Output File Name                   : "../implementation/cpu0_sys_reset_n_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : cpu0_sys_reset_n_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd" into library proc_sys_reset_v3_00_a
+Parsing entity <upcnt_n>.
+Parsing architecture <imp> of entity <upcnt_n>.
+Parsing VHDL file "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" into library proc_sys_reset_v3_00_a
+Parsing entity <lpf>.
+Parsing architecture <imp> of entity <lpf>.
+Parsing VHDL file "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd" into library proc_sys_reset_v3_00_a
+Parsing entity <sequence>.
+Parsing architecture <imp> of entity <sequence>.
+Parsing VHDL file "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" into library proc_sys_reset_v3_00_a
+Parsing entity <proc_sys_reset>.
+Parsing architecture <imp> of entity <proc_sys_reset>.
+Parsing VHDL file "J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\hdl\cpu0_sys_reset_n_wrapper.vhd" into library work
+Parsing entity <cpu0_sys_reset_n_wrapper>.
+Parsing architecture <STRUCTURE> of entity <cpu0_sys_reset_n_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <cpu0_sys_reset_n_wrapper> (architecture <STRUCTURE>) from library <work>.
+
+Elaborating entity <proc_sys_reset> (architecture <imp>) with generics from library <proc_sys_reset_v3_00_a>.
+
+Elaborating entity <upcnt_n> (architecture <imp>) with generics from library <proc_sys_reset_v3_00_a>.
+
+Elaborating entity <lpf> (architecture <imp>) with generics from library <proc_sys_reset_v3_00_a>.
+WARNING:HDLCompiler:89 - "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" Line 138: <srl16> remains a black-box since it has no binding entity.
+
+Elaborating entity <sequence> (architecture <imp>) from library <proc_sys_reset_v3_00_a>.
+
+Elaborating entity <upcnt_n> (architecture <imp>) with generics from library <proc_sys_reset_v3_00_a>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cpu0_sys_reset_n_wrapper>.
+    Related source file is "J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\hdl\cpu0_sys_reset_n_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <cpu0_sys_reset_n_wrapper> synthesized.
+
+Synthesizing Unit <proc_sys_reset>.
+    Related source file is "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd".
+        C_EXT_RST_WIDTH = 4
+        C_AUX_RST_WIDTH = 4
+        C_EXT_RESET_HIGH = '0'
+        C_AUX_RESET_HIGH = '1'
+        C_NUM_BUS_RST = 1
+        C_NUM_PERP_RST = 1
+        C_NUM_INTERCONNECT_ARESETN = 1
+        C_NUM_PERP_ARESETN = 1
+    Set property "equivalent_register_removal = no" for signal <Bus_Struct_Reset>.
+    Set property "equivalent_register_removal = no" for signal <Peripheral_Reset>.
+    Set property "equivalent_register_removal = no" for signal <Interconnect_aresetn>.
+    Set property "equivalent_register_removal = no" for signal <Peripheral_aresetn>.
+    Register <RstcPPCresetchip_1> equivalent to <RstcPPCresetchip_0> has been removed
+    Register <RstcPPCresetsys_1> equivalent to <RstcPPCresetsys_0> has been removed
+    Found 1-bit register for signal <RstcPPCresetchip_0>.
+    Found 1-bit register for signal <RstcPPCresetsys_0>.
+    Found 1-bit register for signal <RstcPPCresetcore_1>.
+    Found 1-bit register for signal <MB_Reset>.
+    Found 1-bit register for signal <Core_Reset_Req_0_d1>.
+    Found 1-bit register for signal <Core_Reset_Req_0_d2>.
+    Found 1-bit register for signal <Core_Reset_Req_0_d3>.
+    Found 1-bit register for signal <Core_Reset_Req_1_d1>.
+    Found 1-bit register for signal <Core_Reset_Req_1_d2>.
+    Found 1-bit register for signal <Core_Reset_Req_1_d3>.
+    Found 1-bit register for signal <Bus_Struct_Reset>.
+    Found 1-bit register for signal <Interconnect_aresetn>.
+    Found 1-bit register for signal <Peripheral_Reset>.
+    Found 1-bit register for signal <Peripheral_aresetn>.
+    Found 1-bit register for signal <core_cnt_en_0>.
+    Found 1-bit register for signal <core_req_edge_0>.
+    Found 1-bit register for signal <core_cnt_en_1>.
+    Found 1-bit register for signal <core_req_edge_1>.
+    Found 1-bit register for signal <RstcPPCresetcore_0>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+Unit <proc_sys_reset> synthesized.
+
+Synthesizing Unit <upcnt_n_1>.
+    Related source file is "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
+        C_SIZE = 4
+    Found 4-bit register for signal <q_int>.
+    Found 4-bit adder for signal <q_int[3]_GND_7_o_add_0_OUT> created at line 145.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <upcnt_n_1> synthesized.
+
+Synthesizing Unit <lpf>.
+    Related source file is "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd".
+        C_EXT_RST_WIDTH = 4
+        C_AUX_RST_WIDTH = 4
+        C_EXT_RESET_HIGH = '0'
+        C_AUX_RESET_HIGH = '1'
+    Set property "INIT = FFFF" for instance <POR_SRL_I>.
+    Found 1-bit register for signal <lpf_exr>.
+    Found 1-bit register for signal <lpf_asr>.
+    Found 1-bit register for signal <exr_d1>.
+    Found 1-bit register for signal <exr_lpf<0>>.
+    Found 1-bit register for signal <asr_d1>.
+    Found 1-bit register for signal <asr_lpf<0>>.
+    Found 1-bit register for signal <exr_lpf<1>>.
+    Found 1-bit register for signal <exr_lpf<2>>.
+    Found 1-bit register for signal <exr_lpf<3>>.
+    Found 1-bit register for signal <asr_lpf<1>>.
+    Found 1-bit register for signal <asr_lpf<2>>.
+    Found 1-bit register for signal <asr_lpf<3>>.
+    Found 1-bit register for signal <lpf_int>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <lpf> synthesized.
+
+Synthesizing Unit <sequence>.
+    Related source file is "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd".
+    Found 3-bit register for signal <bsr_dec>.
+    Found 1-bit register for signal <pr>.
+    Found 3-bit register for signal <pr_dec>.
+    Found 1-bit register for signal <Core>.
+    Found 3-bit register for signal <core_dec>.
+    Found 1-bit register for signal <Chip>.
+    Found 3-bit register for signal <chip_dec>.
+    Found 1-bit register for signal <Sys>.
+    Found 3-bit register for signal <sys_dec>.
+    Found 1-bit register for signal <chip_Reset_Req_d1>.
+    Found 1-bit register for signal <chip_Reset_Req_d2>.
+    Found 1-bit register for signal <chip_Reset_Req_d3>.
+    Found 1-bit register for signal <system_Reset_Req_d1>.
+    Found 1-bit register for signal <system_Reset_Req_d2>.
+    Found 1-bit register for signal <system_Reset_Req_d3>.
+    Found 1-bit register for signal <ris_edge>.
+    Found 1-bit register for signal <sys_edge>.
+    Found 1-bit register for signal <from_sys>.
+    Found 1-bit register for signal <seq_cnt_en>.
+    Found 1-bit register for signal <seq_clr>.
+    Found 1-bit register for signal <bsr>.
+    Summary:
+	inferred  31 D-type flip-flop(s).
+Unit <sequence> synthesized.
+
+Synthesizing Unit <upcnt_n_2>.
+    Related source file is "H:/IDE14_7/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
+        C_SIZE = 6
+    Found 6-bit register for signal <q_int>.
+    Found 6-bit adder for signal <q_int[5]_GND_21_o_add_0_OUT> created at line 145.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+Unit <upcnt_n_2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 2
+ 6-bit adder                                           : 1
+# Registers                                            : 56
+ 1-bit register                                        : 48
+ 3-bit register                                        : 5
+ 4-bit register                                        : 2
+ 6-bit register                                        : 1
+# Multiplexers                                         : 2
+ 4-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <upcnt_n_1>.
+The following registers are absorbed into counter <q_int>: 1 register on signal <q_int>.
+Unit <upcnt_n_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <upcnt_n_2>.
+The following registers are absorbed into counter <q_int>: 1 register on signal <q_int>.
+Unit <upcnt_n_2> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 3
+ 4-bit up counter                                      : 2
+ 6-bit up counter                                      : 1
+# Registers                                            : 63
+ Flip-Flops                                            : 63
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <core_dec_1> in Unit <sequence> is equivalent to the following 3 FFs/Latches, which will be removed : <bsr_dec_1> <pr_dec_1> <sys_dec_1> 
+INFO:Xst:2261 - The FF/Latch <bsr_dec_0> in Unit <sequence> is equivalent to the following FF/Latch, which will be removed : <sys_dec_0> 
+INFO:Xst:2261 - The FF/Latch <bsr_dec_2> in Unit <sequence> is equivalent to the following FF/Latch, which will be removed : <sys_dec_2> 
+
+Optimizing unit <cpu0_sys_reset_n_wrapper> ...
+
+Optimizing unit <proc_sys_reset> ...
+
+Optimizing unit <lpf> ...
+
+Optimizing unit <sequence> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block cpu0_sys_reset_n_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <cpu0_sys_reset_n_wrapper> :
+	Found 2-bit shift register for signal <sys_reset_n/Core_Reset_Req_1_d2>.
+	Found 2-bit shift register for signal <sys_reset_n/Core_Reset_Req_0_d2>.
+	Found 2-bit shift register for signal <sys_reset_n/EXT_LPF/asr_lpf_0>.
+Unit <cpu0_sys_reset_n_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+# Shift Registers                                      : 3
+ 2-bit shift register                                  : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cpu0_sys_reset_n_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 54
+#      GND                         : 1
+#      INV                         : 8
+#      LUT2                        : 16
+#      LUT3                        : 3
+#      LUT4                        : 17
+#      LUT5                        : 6
+#      LUT6                        : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 69
+#      FD                          : 52
+#      FDE                         : 3
+#      FDRE                        : 14
+# Shift Registers                  : 4
+#      SRL16                       : 1
+#      SRLC16E                     : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z010clg400-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              69  out of  35200     0%  
+ Number of Slice LUTs:                   56  out of  17600     0%  
+    Number used as Logic:                52  out of  17600     0%  
+    Number used as Memory:                4  out of   6000     0%  
+       Number used as SRL:                4
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     72
+   Number with an unused Flip Flop:       3  out of     72     4%  
+   Number with an unused LUT:            16  out of     72    22%  
+   Number of fully used LUT-FF pairs:    53  out of     72    73%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                   0  out of    100     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                 | Load  |
+-----------------------------------+---------------------------------------+-------+
+Slowest_sync_clk                   | NONE(sys_reset_n/CORE_RESET_0/q_int_3)| 73    |
+-----------------------------------+---------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.769ns (Maximum Frequency: 565.291MHz)
+   Minimum input arrival time before clock: 0.300ns
+   Maximum output required time after clock: 0.282ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Slowest_sync_clk'
+  Clock period: 1.769ns (frequency: 565.291MHz)
+  Total number of paths / destination ports: 197 / 94
+-------------------------------------------------------------------------
+Delay:               1.769ns (Levels of Logic = 1)
+  Source:            sys_reset_n/EXT_LPF/POR_SRL_I (FF)
+  Destination:       sys_reset_n/EXT_LPF/lpf_int (FF)
+  Source Clock:      Slowest_sync_clk rising
+  Destination Clock: Slowest_sync_clk rising
+
+  Data Path: sys_reset_n/EXT_LPF/POR_SRL_I to sys_reset_n/EXT_LPF/lpf_int
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   1.292   0.413  sys_reset_n/EXT_LPF/POR_SRL_I (sys_reset_n/EXT_LPF/srl_time_out)
+     LUT4:I3->O            1   0.053   0.000  sys_reset_n/EXT_LPF/lpf_exr_Dcm_locked_OR_7_o1 (sys_reset_n/EXT_LPF/lpf_exr_Dcm_locked_OR_7_o)
+     FD:D                      0.011          sys_reset_n/EXT_LPF/lpf_int
+    ----------------------------------------
+    Total                      1.769ns (1.356ns logic, 0.413ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Slowest_sync_clk'
+  Total number of paths / destination ports: 10 / 7
+-------------------------------------------------------------------------
+Offset:              0.300ns (Levels of Logic = 1)
+  Source:            Dcm_locked (PAD)
+  Destination:       sys_reset_n/EXT_LPF/lpf_int (FF)
+  Destination Clock: Slowest_sync_clk rising
+
+  Data Path: Dcm_locked to sys_reset_n/EXT_LPF/lpf_int
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT4:I0->O            1   0.053   0.000  sys_reset_n/EXT_LPF/lpf_exr_Dcm_locked_OR_7_o1 (sys_reset_n/EXT_LPF/lpf_exr_Dcm_locked_OR_7_o)
+     FD:D                      0.011          sys_reset_n/EXT_LPF/lpf_int
+    ----------------------------------------
+    Total                      0.300ns (0.300ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Slowest_sync_clk'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              0.282ns (Levels of Logic = 0)
+  Source:            sys_reset_n/Bus_Struct_Reset_0 (FF)
+  Destination:       Bus_Struct_Reset<0> (PAD)
+  Source Clock:      Slowest_sync_clk rising
+
+  Data Path: sys_reset_n/Bus_Struct_Reset_0 to Bus_Struct_Reset<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               0   0.282   0.000  sys_reset_n/Bus_Struct_Reset_0 (sys_reset_n/Bus_Struct_Reset_0)
+    ----------------------------------------
+    Total                      0.282ns (0.282ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Slowest_sync_clk
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+Slowest_sync_clk|    1.769|         |         |         |
+----------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.45 secs
+ 
+--> 
+
+Total memory usage is 264184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

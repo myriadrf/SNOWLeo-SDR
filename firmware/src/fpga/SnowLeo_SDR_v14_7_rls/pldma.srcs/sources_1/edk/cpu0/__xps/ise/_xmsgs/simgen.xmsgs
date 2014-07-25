@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PACKAGE_NAME</arg> value to <arg fmt="%s" index="6">clg400</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 185</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_S_AXI_HP1_HIGHADDR</arg> value to <arg fmt="%s" index="6">0x1FFFFFFF</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 304</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_S_AXI_HP3_HIGHADDR</arg> value to <arg fmt="%s" index="6">0x1FFFFFFF</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 312</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_F2P_INTR_INPUTS</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 319</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi_gp0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_BASEFAMILY</arg> value to <arg fmt="%s" index="6">zynq</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 81</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi_hp0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_BASEFAMILY</arg> value to <arg fmt="%s" index="6">zynq</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 81</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi_hp2</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_BASEFAMILY</arg> value to <arg fmt="%s" index="6">zynq</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 81</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="1432" delta="new" >Frequency for Top-Level Input Clock &apos;<arg fmt="%s" index="1">processing_system7_0_PS_CLK_pin</arg>&apos; is not specified. Clock DRCs will not be performed for IPs connected to that clock port, unless they are connected through the clock generator IP. 
+
+</msg>
+
+<msg type="info" file="EDK" num="3716" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_vdma</arg>, INSTANCE: <arg fmt="%s" index="2">axi_vdma_0</arg> - Tools are updating the value of the parameter <arg fmt="%s" index="3">C_INTERCONNECT_M_AXI_MM2S_IS_ACLK_ASYNC</arg> to &apos;1&apos;. 
+</msg>
+
+<msg type="info" file="EDK" num="0" delta="new" ><arg fmt="%s" index="1">INFO: DDR Base and High address in current configuration is 0x00000000 and 0x1FFFFFFF respectively.</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="0" delta="new" ><arg fmt="%s" index="1">INFO: You can modify the DDR address range accessed by Programmable Logic through the processing_system7 AXI slave interfaces. If MicroBlaze is a master on processing_system7 AXI slave interfaces, please use the top half of the address range (Base Address = 0x10000000; High Address = 0x1FFFFFFF). For all other master, any subset of the DDR address can be used. See Xilinx Answer 47167 for more information.</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">m_axis_mm2s_tuser</arg>, CONNECTOR: <arg fmt="%s" index="2">axi_vdma_0_M_AXIS_MM2S_TUSER</arg> - floating connection - <arg fmt="%s" index="3">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_vdma_v5_04_a\data\axi_vdma_v2_1_0.mpd line 212</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">processing_system7</arg>, INSTANCE:<arg fmt="%s" index="2">processing_system7_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_FCLK_CLK3_BUF</arg> value to <arg fmt="%s" index="6">FALSE</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a\data\processing_system7_v2_1_0.mpd line 353</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi_gp0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_RANGE_CHECK</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 149</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi_hp0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_RANGE_CHECK</arg> value to <arg fmt="%s" index="6">0</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 149</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">axi_interconnect</arg>, INSTANCE:<arg fmt="%s" index="2">axi_hp2</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_RANGE_CHECK</arg> value to <arg fmt="%s" index="6">0</arg> - <arg fmt="%s" index="7">H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 149</arg> 
+</msg>
+
+</messages>
+

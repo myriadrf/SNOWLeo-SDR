@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.bss=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.data=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.data1=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.fixup=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.rodata=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.rodata1=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.sbss=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.sbss2=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.sdata=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.sdata2=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:.text=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:Heap=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:Stack=ps7_ddr_0_S_AXI_BASEADDR
+com.xilinx.sdk.linkgen.prefs.spi_intr_app\:Stack-size=1024
+eclipse.preferences.version=1

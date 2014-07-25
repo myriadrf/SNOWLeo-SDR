@@ -1,0 +1,6 @@
+19:01:29 **** Auto Build of configuration Debug for project i2c_spi_polled_app ****
+make all 
+make: Nothing to be done for `all'.
+
+19:01:29 Build Finished (took 317ms)
+

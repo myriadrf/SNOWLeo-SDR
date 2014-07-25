@@ -1,0 +1,6 @@
+12:41:54 **** Incremental Build of configuration Release for project sdr_fsbl ****
+make all 
+make: Nothing to be done for `all'.
+
+12:41:54 Build Finished (took 667ms)
+

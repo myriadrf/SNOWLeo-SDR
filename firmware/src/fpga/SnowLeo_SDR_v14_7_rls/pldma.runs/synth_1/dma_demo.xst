@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn dma_demo.prj
+-top dma_demo
+-p xc7z010clg400-1
+-ofn dma_demo.ngc
+-sd {j:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0 j:/zing_pro/snowleo/SnowLeo_SDR_v14_7_rls/pldma.srcs/sources_1/ip/chipscope_icon_v1_06_a_1 ..\..\pldma.srcs\sources_1\edk\cpu0\implementation}
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

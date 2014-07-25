@@ -1,0 +1,6 @@
+19:05:50 **** Auto Build of configuration Debug for project spi_intr_app ****
+make all 
+make: Nothing to be done for `all'.
+
+19:05:51 Build Finished (took 302ms)
+

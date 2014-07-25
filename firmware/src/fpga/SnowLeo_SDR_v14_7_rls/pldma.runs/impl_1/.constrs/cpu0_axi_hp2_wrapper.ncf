@@ -1,0 +1,13 @@
+INST "axi_hp2/*clock_conv*/*_resync*" TNM = FFS "axi_hp2_reset_resync";
+TIMEGRP "axi_hp2_reset_source" = FFS PADS CPUS;
+TIMESPEC "TS_axi_hp2_reset_resync" = FROM "axi_hp2_reset_source" TO "axi_hp2_reset_resync" TIG;
+INST "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_?" TNM = "axi_hp2_async_clock_conv_FFDEST";
+INST "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_??" TNM = "axi_hp2_async_clock_conv_FFDEST";
+INST "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_???" TNM = "axi_hp2_async_clock_conv_FFDEST";
+INST "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*mem/*dout_i_????" TNM = "axi_hp2_async_clock_conv_FFDEST";
+TIMESPEC "TS_axi_hp2_async_clock_conv" = FROM RAMS TO "axi_hp2_async_clock_conv_FFDEST" 6666 PS DATAPATHONLY;
+NET "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/wr_pntr_gc*" TIG;
+NET "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/rd_pntr_gc*" TIG;
+NET "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*clkx/wr_q*" TIG;
+NET "axi_hp2/*_converter_bank/*clock_conv_inst/*asyncfifo_*/*clkx/rd_q*" TIG;
+NET "axi_hp2/*_converter_bank/*clock_conv_inst/*async_conv_reset" TIG;

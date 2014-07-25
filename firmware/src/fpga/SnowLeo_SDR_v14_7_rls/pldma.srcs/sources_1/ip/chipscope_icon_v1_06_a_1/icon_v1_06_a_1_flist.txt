@@ -1,0 +1,15 @@
+# Output products list for <icon_v1_06_a_1>
+icon_v1_06_a_1.asy
+icon_v1_06_a_1.constraints\icon_v1_06_a_1.ucf
+icon_v1_06_a_1.constraints\icon_v1_06_a_1.xdc
+icon_v1_06_a_1.gise
+icon_v1_06_a_1.ngc
+icon_v1_06_a_1.ucf
+icon_v1_06_a_1.v
+icon_v1_06_a_1.veo
+icon_v1_06_a_1.xco
+icon_v1_06_a_1.xdc
+icon_v1_06_a_1.xise
+icon_v1_06_a_1_flist.txt
+icon_v1_06_a_1_readme.txt
+icon_v1_06_a_1_xmdf.tcl

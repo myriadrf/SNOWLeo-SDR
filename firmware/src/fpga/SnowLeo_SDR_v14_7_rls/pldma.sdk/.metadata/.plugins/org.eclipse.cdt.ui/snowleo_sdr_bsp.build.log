@@ -1,0 +1,6 @@
+12:29:06 **** Build of project snowleo_sdr_bsp ****
+make -k all 
+'Finished building libraries'
+
+12:29:07 Build Finished (took 1s.354ms)
+

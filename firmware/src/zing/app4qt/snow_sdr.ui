@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Snow_sdr</class>
+ <widget class="QMainWindow" name="Snow_sdr">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1272</width>
+    <height>868</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Snow_sdr</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QGroupBox" name="groupBox">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 16pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="title">
+         <string>RX_I</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="Drawploat" name="time_i_plot">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 16pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="title">
+         <string>Tx Options</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="1" column="3">
+            <widget class="QComboBox" name="tx_v1_cb">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QComboBox" name="tx_v2_cb">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="5">
+            <widget class="QLabel" name="label_6">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>dB</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="6">
+            <widget class="QLabel" name="label_8">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>MHz</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="5">
+            <widget class="QSpinBox" name="Tx_spinBox"/>
+           </item>
+           <item row="1" column="6">
+            <widget class="QPushButton" name="Tx_gain_setbt">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Txset</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="6">
+            <widget class="QPushButton" name="dacontrbt">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Tx_Stop</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="5">
+            <widget class="QPushButton" name="filebt">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Source</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" colspan="4">
+            <widget class="QLabel" name="pathlb">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" colspan="2">
+            <widget class="QLabel" name="label_5">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>                 Gain</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" colspan="2">
+            <widget class="QLabel" name="label_7">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>                 Freq</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3" colspan="2">
+            <widget class="QSlider" name="freq_tx">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="0" column="1" colspan="6">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>               www.v3t.com</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QLabel" name="label_9">
+                 <property name="minimumSize">
+                  <size>
+                   <width>400</width>
+                   <height>150</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>400</width>
+                   <height>150</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">border-image: url(:/v3.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 16pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="title">
+         <string>Rx Options</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="2" column="1" colspan="6">
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="7">
+            <widget class="QSlider" name="freq_rx">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="7">
+            <widget class="QComboBox" name="rx_v2_cb">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1" colspan="6">
+            <widget class="QLabel" name="label">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>              Gain</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="8">
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>dB </string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" colspan="6">
+            <widget class="QLabel" name="label_2">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>              Freq</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="9">
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+             </property>
+             <property name="text">
+              <string>MHz</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QPushButton" name="Rx_gain_srtbt">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Rxset</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="8">
+            <widget class="QSpinBox" name="Rx_spinBox"/>
+           </item>
+           <item row="2" column="7" colspan="3">
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="styleSheet">
+                <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+               </property>
+               <property name="text">
+                <string>X_Y</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="x_ycb">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_11">
+               <property name="styleSheet">
+                <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Rx_I</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="Itimecb">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_12">
+               <property name="styleSheet">
+                <string notr="true">font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
+               </property>
+               <property name="text">
+                <string>Rx_Q</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="qtcb">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="Os_bt">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Rx_Stop</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="0" column="0">
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="0">
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 16pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="title">
+         <string>RX_Q</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="Drawploat" name="time_q_plot">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1" rowspan="2">
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="styleSheet">
+         <string notr="true">font: 75 italic 16pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="title">
+         <string>I_Q</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <widget class="Drawploat" name="freq_q_plot">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Drawploat</class>
+   <extends>QFrame</extends>
+   <header location="global">drawploat.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

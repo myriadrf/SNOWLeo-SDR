@@ -1,0 +1,7 @@
+verilog processing_system7_v4_03_a H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a/hdl/verilog/b_atc.v
+verilog processing_system7_v4_03_a H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a/hdl/verilog/w_atc.v
+verilog processing_system7_v4_03_a H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a/hdl/verilog/aw_atc.v
+verilog processing_system7_v4_03_a H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a/hdl/verilog/atc.v
+verilog processing_system7_v4_03_a H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a/hdl/verilog/processing_system7.v
+verilog processing_system7_v4_03_a H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\processing_system7_v4_03_a/hdl/verilog/trace_buffer.v
+verilog work ../hdl/cpu0_processing_system7_0_wrapper.v

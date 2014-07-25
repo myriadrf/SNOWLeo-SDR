@@ -1,0 +1,76 @@
+INFO:sim:172 - Generating IP...
+WARNING:sim:100 - The Simulation File Type <Behavioral> is not valid for this
+   core. Overriding with File Type <structural>.
+Applying current project options...
+Finished applying current project options.
+Resolving generic values...
+Finished resolving generic values.
+Generating IP...
+WARNING:sim:100 - The Simulation File Type <Behavioral> is not valid for this
+   core. Overriding with File Type <structural>.
+WARNING:sim:89 - A core named <ila_v1_05_a_0> already exists in the output
+   directory. Output products for this core may be overwritten.
+Configuring files for ila_v1_05_a_0 root...
+Gathering HDL files for ila_v1_05_a_0 root...
+Creating XST project for ila_v1_05_a_0...
+Creating XST script file for ila_v1_05_a_0...
+Creating XST instantiation file for ila_v1_05_a_0...
+Running XST for ila_v1_05_a_0...
+XST: HDL Parsing
+XST: HDL Elaboration
+XST: HDL Synthesis
+XST: Advanced HDL Synthesis
+XST: Low Level Synthesis
+XST: Design Summary
+Not generating VHDL wrapper
+Generating Verilog wrapper
+Skipping VHDL instantiation template for ila_v1_05_a_0...
+Creating ISE instantiation template for ila_v1_05_a_0...
+Finished Generation.
+Generating IP instantiation template...
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: ila_v1_05_a_0.xco
+XMDF file found: ila_v1_05_a_0_xmdf.tcl
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.asy -view all
+-origin_type imported
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.ngc -view all
+-origin_type created
+Checking file
+"F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pl
+dma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.ngc" for
+project device match ...
+File
+"F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pl
+dma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.ngc" device
+information matches project device.
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.v -view all
+-origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls
+   /pldma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+F:/ZYNQ/ZingNano/Zingnano_test/SNOWLeo_Sdr_Demo/SNOWLeo_Sdr_Demo0509_14.7rls/pld
+ma.srcs/sources_1/ip/chipscope_ila_v1_05_a_0/tmp/_cg/ila_v1_05_a_0.veo -view all
+-origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/ila_v1_05_a_0"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.

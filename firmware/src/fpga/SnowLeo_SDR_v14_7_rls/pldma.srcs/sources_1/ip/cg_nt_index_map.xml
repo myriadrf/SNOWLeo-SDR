@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xilinx:repositories xmlns:xilinx="http://www.xilinx.com">
+  <xilinx:catalogId>ce5dbd7f</xilinx:catalogId>
+  <xilinx:user>
+  </xilinx:user>
+  <xilinx:system>
+    <xilinx:repository xilinx:directory="H:\IDE14_7\14.7\ISE_DS\ISE\coregen\" xilinx:index="H:\IDE14_7\14.7\ISE_DS\ISE\coregen\xil_index.xml" xilinx:displayName=""/>
+  </xilinx:system>
+</xilinx:repositories>

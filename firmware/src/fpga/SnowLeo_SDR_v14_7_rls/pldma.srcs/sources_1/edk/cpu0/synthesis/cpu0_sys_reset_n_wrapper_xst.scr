@@ -1,0 +1,14 @@
+set -tmpdir J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\synthesis\xst_temp_dir\
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc7z010clg400-1
+-top cpu0_sys_reset_n_wrapper
+-ifmt MIXED
+-ifn cpu0_sys_reset_n_wrapper_xst.prj
+-ofn ../implementation/cpu0_sys_reset_n_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation}
+-vlgincdir {"J:\zing_pro\snowleo\SnowLeo_SDR_v14_7_rls\pldma.srcs\sources_1\edk\cpu0\pcores\" "H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "H:\IDE14_7\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

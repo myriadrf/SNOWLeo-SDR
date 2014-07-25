@@ -1,0 +1,180 @@
+################################################################################
+#       SnowLeo Pin Setup
+################################################################################
+
+#NET axi_led[0]     LOC = J16  | IOSTANDARD= LVCMOS33;#LED
+#NET axi_led[1]     LOC = G20 | IOSTANDARD= LVCMOS33;#LED
+#NET axi_led[2]     LOC = F20 | IOSTANDARD= LVCMOS33;#LED
+#NET axi_led[3]     LOC = G15 | IOSTANDARD= LVCMOS33;#LED
+#NET mclk					 LOC = N18 | IOSTANDARD= LVCMOS33 ;#SYS_CLK_P
+#NET "mclk" CLOCK_DEDICATED_ROUTE = BACKBONE;
+
+#zipper
+//NET	rxclk				LOC=L16		|	IOSTANDARD=LVCMOS33;
+NET "rxen" LOC = L20;
+NET "rxen" IOSTANDARD = LVCMOS33;
+NET "rxiqsel" LOC = N20;
+NET "rxiqsel" IOSTANDARD = LVCMOS33;
+NET "rxd[0]" LOC = P19;
+NET "rxd[0]" IOSTANDARD = LVCMOS33;
+NET "rxd[1]" LOC = K18;
+NET "rxd[1]" IOSTANDARD = LVCMOS33;
+NET "rxd[2]" LOC = P16;
+NET "rxd[2]" IOSTANDARD = LVCMOS33;
+NET "rxd[3]" LOC = J14;
+NET "rxd[3]" IOSTANDARD = LVCMOS33;
+NET "rxd[4]" LOC = T19;
+NET "rxd[4]" IOSTANDARD = LVCMOS33;
+NET "rxd[5]" LOC = J19;
+NET "rxd[5]" IOSTANDARD = LVCMOS33;
+NET "rxd[6]" LOC = R18;
+NET "rxd[6]" IOSTANDARD = LVCMOS33;
+NET "rxd[7]" LOC = H20;
+NET "rxd[7]" IOSTANDARD = LVCMOS33;
+NET "rxd[8]" LOC = V18;
+NET "rxd[8]" IOSTANDARD = LVCMOS33;
+NET "rxd[9]" LOC = J15;
+NET "rxd[9]" IOSTANDARD = LVCMOS33;
+NET "rxd[10]" LOC = W20;
+NET "rxd[10]" IOSTANDARD = LVCMOS33;
+NET "rxd[11]" LOC = K14;
+NET "rxd[11]" IOSTANDARD = LVCMOS33;
+
+
+NET "txclk" LOC = L17;
+NET "txclk" IOSTANDARD = LVCMOS33;
+NET "txen" LOC = T15;
+NET "txen" IOSTANDARD = LVCMOS33;
+NET "txiqsel" LOC = J18;
+NET "txiqsel" IOSTANDARD = LVCMOS33;
+NET "txd[0]" LOC = K19;
+NET "txd[0]" IOSTANDARD = LVCMOS33;
+NET "txd[1]" LOC = W16;
+NET "txd[1]" IOSTANDARD = LVCMOS33;
+NET "txd[2]" LOC = K16;
+NET "txd[2]" IOSTANDARD = LVCMOS33;
+NET "txd[3]" LOC = N15;
+NET "txd[3]" IOSTANDARD = LVCMOS33;
+NET "txd[4]" LOC = L19;
+NET "txd[4]" IOSTANDARD = LVCMOS33;
+NET "txd[5]" LOC = U14;
+NET "txd[5]" IOSTANDARD = LVCMOS33;
+NET "txd[6]" LOC = L14;
+NET "txd[6]" IOSTANDARD = LVCMOS33;
+NET "txd[7]" LOC = M19;
+NET "txd[7]" IOSTANDARD = LVCMOS33;
+NET "txd[8]" LOC = M20;
+NET "txd[8]" IOSTANDARD = LVCMOS33;
+NET "txd[9]" LOC = L15;
+NET "txd[9]" IOSTANDARD = LVCMOS33;
+NET "txd[10]" LOC = P18;
+NET "txd[10]" IOSTANDARD = LVCMOS33;
+NET "txd[11]" LOC = M15;
+NET "txd[11]" IOSTANDARD = LVCMOS33;
+
+
+NET "rf_reset" LOC = M18;
+NET "rf_reset" IOSTANDARD = LVCMOS33;
+NET "sil5351_scl" LOC = W13;
+NET "sil5351_scl" IOSTANDARD = LVCMOS33;
+NET "sil5351_sda" LOC = J20;
+NET "sil5351_sda" IOSTANDARD = LVCMOS33;
+NET "spi_clk" LOC = U19;
+NET "spi_clk" IOSTANDARD = LVCMOS33;
+NET "spi_miso" LOC = U20;
+NET "spi_miso" IOSTANDARD = LVCMOS33;
+NET "spi_mosi" LOC = P20;
+NET "spi_mosi" IOSTANDARD = LVCMOS33;
+NET "spi_cs" LOC = Y19;
+NET "spi_cs" IOSTANDARD = LVCMOS33;
+
+NET "gpio[0]" LOC = Y18;
+NET "gpio[0]" IOSTANDARD = LVCMOS33;
+NET "gpio[1]" LOC = U17;
+NET "gpio[1]" IOSTANDARD = LVCMOS33;
+NET "gpio[2]" LOC = W15;
+NET "gpio[2]" IOSTANDARD = LVCMOS33;
+
+#--------------------------- SNOWLeo HDMI interface  -------------------------------
+NET "hdmi_clk_pin" LOC = U18;
+NET "hdmi_clk_pin" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_e_pin" LOC = T11;
+NET "hdmi_data_e_pin" IOSTANDARD = LVCMOS33;
+NET "hdmi_hsync_pin" LOC = V12;
+NET "hdmi_hsync_pin" IOSTANDARD = LVCMOS33;
+NET "hdmi_vsync_pin" LOC = T10;
+NET "hdmi_vsync_pin" IOSTANDARD = LVCMOS33;
+# RGB
+##B
+#NET hdmi_data_pin<8>    LOC = W14  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<9>    LOC = Y14  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<10>    LOC = P14  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<11>    LOC = V15  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<12>    LOC = T14  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<13>    LOC = Y17  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<14>    LOC = V16  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<15>    LOC = R16  | IOSTANDARD = LVCMOS33;
+
+##G
+#NET hdmi_data_pin<0>    LOC = Y16  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<1>    LOC = V17  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<2>   LOC = W18 | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<3>   LOC = V20 | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<4>   LOC = W19 | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<5>   LOC = R17 | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<6>   LOC = R19 | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<7>   LOC = T17 | IOSTANDARD = LVCMOS33;
+##R
+#NET hdmi_data_pin<16>   LOC = N17  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<17>   LOC = M14  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<18>   LOC = N16  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<19>   LOC = P15  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<20>   LOC = T20  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<21>   LOC = T16  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<22>   LOC = M17  | IOSTANDARD = LVCMOS33;
+#NET hdmi_data_pin<23>   LOC = R14  | IOSTANDARD = LVCMOS33;
+
+#YCbCr
+##Y
+NET "hdmi_data_pin[0]" LOC = Y16;
+NET "hdmi_data_pin[0]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[1]" LOC = V17;
+NET "hdmi_data_pin[1]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[2]" LOC = W18;
+NET "hdmi_data_pin[2]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[3]" LOC = V20;
+NET "hdmi_data_pin[3]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[4]" LOC = W19;
+NET "hdmi_data_pin[4]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[5]" LOC = R17;
+NET "hdmi_data_pin[5]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[6]" LOC = R19;
+NET "hdmi_data_pin[6]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[7]" LOC = T17;
+NET "hdmi_data_pin[7]" IOSTANDARD = LVCMOS33;
+##C
+NET "hdmi_data_pin[8]" LOC = N17;
+NET "hdmi_data_pin[8]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[9]" LOC = M14;
+NET "hdmi_data_pin[9]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[10]" LOC = N16;
+NET "hdmi_data_pin[10]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[11]" LOC = P15;
+NET "hdmi_data_pin[11]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[12]" LOC = T20;
+NET "hdmi_data_pin[12]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[13]" LOC = T16;
+NET "hdmi_data_pin[13]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[14]" LOC = M17;
+NET "hdmi_data_pin[14]" IOSTANDARD = LVCMOS33;
+NET "hdmi_data_pin[15]" LOC = R14;
+NET "hdmi_data_pin[15]" IOSTANDARD = LVCMOS33;
+
+
+
+PIN "u_pll_tx/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "BUFG1.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "BUFG2.O" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "rxiqsel" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "txclk" CLOCK_DEDICATED_ROUTE = FALSE;
+//NET "rxclk" CLOCK_DEDICATED_ROUTE = FALSE;
