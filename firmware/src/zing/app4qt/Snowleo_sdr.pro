@@ -25,7 +25,7 @@ HEADERS  += snow_sdr.h \
     osthread.h
 
 LIBS  += -L "/home/david/Qt_INSTALL/lib/" -lqwt
-LIBS  += -L ./libsnowleosdr_hw.a
+LIBS  += -L ./libsnowleosdr.so
 
 INCLUDEPATH += /home/david/Qt_INSTALL/include/
 FORMS    += snow_sdr.ui

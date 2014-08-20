@@ -3,6 +3,8 @@ route add -host 255.255.255.255 dev eth0
 route add -net 224.0.2.15 netmask 255.255.255.0 dev eth0
 echo "Starting Zing axi-dma Application..."
 
+cp /mnt/libsnowleosdr.so /lib
+
 TRD_LIB=/usr/local/lib/zynq_qt_install
 
 if [ ! -d ${TRD_LIB} ]
