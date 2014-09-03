@@ -15,7 +15,7 @@ fwrite(link,rx_size,'uint8');
 
 %% send rx freq
 freq_hex=dec2hex(1900e6,8);
-rx_freq=[0 0 hex2dec('17') hex2dec('f0') hex2dec(freq_hex(7:8)) hex2dec(freq_hex(5:6)) hex2dec(freq_hex(3:4)) hex2dec(freq_hex(1:2))];
+rx_freq=[0 0 hex2dec('18') hex2dec('f0') hex2dec(freq_hex(7:8)) hex2dec(freq_hex(5:6)) hex2dec(freq_hex(3:4)) hex2dec(freq_hex(1:2))];
 fwrite(link,rx_freq,'uint8');
 
 %% send rx vga
@@ -55,7 +55,7 @@ while (1)
     plot(a2,'r');
     subplot(222);
     plot(a1,a2);
-    title(['�źŲ��� cyc=',num2str(cyc),';mem=',num2str(mem),'MB']);
+    title(['ÐÅºÅ²¨ÐÎ cyc=',num2str(cyc),';mem=',num2str(mem),'MB']);
     pause;
     cyc=cyc+1;
     %clearvars -except cyc;
